@@ -1,7 +1,7 @@
 .PHONY: run docker-build docker-run clean
 
 run:
-	python -m src.main
+	LD_LIBRARY_PATH=/tmp/libnspr/usr/lib/x86_64-linux-gnu:$$LD_LIBRARY_PATH .venv/bin/python -m src.main
 
 docker-build:
 	docker build -t ai-job-agent .
