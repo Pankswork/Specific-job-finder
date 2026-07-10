@@ -10,6 +10,7 @@ from src.scrapers.jobslooker import JobslookerScraper
 from src.scrapers.foundit import FounditScraper
 from src.scrapers.adzuna import AdzunaScraper
 from src.scrapers.linkedin_posts import LinkedInPostsScraper
+from src.scrapers.telegram_jobs import TelegramJobsScraper
 
 
 def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
@@ -54,5 +55,8 @@ def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
 
     if scraper_config.get("linkedin_posts", {}).get("enabled", False):
         scrapers.append(LinkedInPostsScraper(scraper_config["linkedin_posts"]))
+
+    if scraper_config.get("telegram_jobs", {}).get("enabled", False):
+        scrapers.append(TelegramJobsScraper(scraper_config["telegram_jobs"]))
 
     return scrapers

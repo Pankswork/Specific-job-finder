@@ -29,7 +29,7 @@ scrapers:
     location: "India"
 
   linkedin_posts:
-    enabled: true
+    enabled: false
     max_posts: 20
 
   hirist:
@@ -67,6 +67,15 @@ scrapers:
     where: "India"
     max_jobs: 20
     # app_id and app_key from ADZUNA_APP_ID / ADZUNA_API_KEY env vars
+
+  telegram_jobs:
+    enabled: false
+    # web preview (t.me/s/{channel}) only shows cached messages hours/days old
+    # real-time requires bot API which needs bot to be added to each channel
+    channels:
+      - getjobss
+      - fresheroffcampus
+    max_per_channel: 20
 
   foundit:
     enabled: false
