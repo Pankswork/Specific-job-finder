@@ -1,5 +1,6 @@
 import time
 
+from src.linkedin_auth import login
 from src.models import JobPost, ScrapeResult
 from src.scrapers.browser import BrowserScraper
 
@@ -13,7 +14,7 @@ LINKEDIN_KEYWORDS = [
 class LinkedInScraper(BrowserScraper):
     site_name = "linkedin"
     keywords = LINKEDIN_KEYWORDS
-    max_description_jobs = 20
+    max_description_jobs = 25
 
     def build_search_url(self) -> str:
         query = self.config.get("query", "DevOps")
@@ -21,27 +22,6 @@ class LinkedInScraper(BrowserScraper):
         q = query.replace(" ", "%20")
         l = location.replace(" ", "%20")
         return f"https://www.linkedin.com/jobs/search/?keywords={q}&location={l}&f_TPR=r86400&f_E=1,2,3&sortBy=DD&position=1&pageNum=0"
-
-    def _extract_description(self, url: str, page) -> str:
-        if not url or "/jobs/view" not in url:
-            return ""
-        try:
-            page.goto(url, timeout=15000, wait_until="domcontentloaded")
-            page.wait_for_timeout(2000)
-            for sel in [".jobs-description-content__text", ".show-more-less-html__markup",
-                        "article.description", ".job-view-layout .description",
-                        ".jobs-search__job-details--container"]:
-                try:
-                    el = page.query_selector(sel)
-                    if el:
-                        text = el.inner_text().strip()
-                        if len(text) > 30:
-                            return text
-                except Exception:
-                    continue
-        except Exception:
-            pass
-        return ""
 
     def scrape(self) -> ScrapeResult:
         jobs: list[JobPost] = []
@@ -61,6 +41,11 @@ class LinkedInScraper(BrowserScraper):
                     viewport={"width": 1280, "height": 900},
                 )
                 page = context.new_page()
+
+                logged_in = login(page, context)
+                if not logged_in:
+                    errors.append("linkedin: login failed, scraping without auth")
+
                 page.goto(self.build_search_url(), timeout=30000, wait_until="domcontentloaded")
                 page.wait_for_timeout(5000)
 
@@ -93,10 +78,25 @@ class LinkedInScraper(BrowserScraper):
 
                 for j in jobs[:self.max_description_jobs]:
                     if j.url:
-                        desc = self._extract_description(j.url, page)
-                        j.description = desc
-                        if desc:
-                            time.sleep(1)
+                        try:
+                            page.goto(j.url, timeout=15000, wait_until="domcontentloaded")
+                            page.wait_for_timeout(2000)
+                            for sel in [".jobs-description-content__text", ".show-more-less-html__markup",
+                                        "article.description", ".job-view-layout .description",
+                                        ".jobs-search__job-details--container"]:
+                                try:
+                                    el = page.query_selector(sel)
+                                    if el:
+                                        text = el.inner_text().strip()
+                                        if len(text) > 30:
+                                            j.description = text
+                                            break
+                                except Exception:
+                                    continue
+                        except Exception:
+                            pass
+                        if j.description:
+                            time.sleep(0.5)
 
                 browser.close()
         except Exception as e:

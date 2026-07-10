@@ -29,8 +29,8 @@ scrapers:
     location: "India"
 
   linkedin_posts:
-    enabled: false
-    max_posts: 20
+    enabled: true
+    max_posts: 10
 
   hirist:
     enabled: true
