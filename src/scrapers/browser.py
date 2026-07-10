@@ -1,13 +1,6 @@
 from src.models import JobPost, ScrapeResult
 from src.scrapers.base import BaseScraper
 
-_STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
-Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-window.chrome = {runtime: {}};
-"""
-
 
 class BrowserScraper(BaseScraper):
     site_name: str = "generic"
@@ -38,7 +31,8 @@ class BrowserScraper(BaseScraper):
                     viewport={"width": 1280, "height": 900},
                 )
                 page = context.new_page()
-                page.add_init_script(_STEALTH_JS)
+                from playwright_stealth import Stealth
+                Stealth().apply_stealth_sync(page)
                 page.goto(self.build_search_url(), timeout=30000, wait_until="domcontentloaded")
                 page.wait_for_timeout(3000)
                 html = page.content()

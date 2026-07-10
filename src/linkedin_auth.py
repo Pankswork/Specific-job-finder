@@ -3,15 +3,6 @@ import os
 from pathlib import Path
 
 _COOKIE_FILE = Path("data/linkedin_cookies.json")
-_STEALTH_JS = """
-Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
-Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-window.chrome = {runtime: {}};
-Object.defineProperty(navigator, 'hardwareConcurrency', {get: () => 8});
-Object.defineProperty(navigator, 'deviceMemory', {get: () => 8});
-Object.defineProperty(navigator, 'maxTouchPoints', {get: () => 0});
-"""
 
 
 def load_credentials() -> tuple[str, str]:
@@ -45,6 +36,19 @@ def clear_cookies():
         _COOKIE_FILE.unlink()
 
 
+def _make_inputs_visible(page):
+    page.evaluate("""() => {
+        document.querySelectorAll('input').forEach(inp => {
+            inp.style.cssText = 'display:block!important;visibility:visible!important;opacity:1!important;position:static!important';
+        });
+        document.querySelectorAll('div').forEach(div => {
+            if (div.querySelector('input')) {
+                div.style.cssText = 'display:block!important;visibility:visible!important;opacity:1!important';
+            }
+        });
+    }""")
+
+
 def login(page, context) -> bool:
     email, password = load_credentials()
     if not email or not password:
@@ -56,66 +60,51 @@ def login(page, context) -> bool:
         if "feed" in page.url and "login" not in page.url.lower():
             return True
 
-    page.add_init_script("""Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
-Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-window.chrome = {runtime: {}};""")
+    from playwright_stealth import Stealth
+    Stealth().apply_stealth_sync(page)
 
     page.goto("https://www.linkedin.com/login", timeout=15000, wait_until="domcontentloaded")
     page.wait_for_timeout(3000)
 
     try:
-        page.evaluate("""(args) => {
-            const inputs = document.querySelectorAll('input');
-            const emailInp = Array.from(inputs).find(i => i.type === 'email');
-            if (!emailInp) return;
-            const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
-            setter.call(emailInp, args.email);
-            emailInp.dispatchEvent(new Event('input', {bubbles: true}));
-            emailInp.dispatchEvent(new Event('change', {bubbles: true}));
-            emailInp.dispatchEvent(new Event('blur'));
-        }""", {"email": email})
-        page.wait_for_timeout(1500)
+        _make_inputs_visible(page)
+        page.wait_for_timeout(500)
 
-        submit = page.query_selector("button[type=submit]")
-        if submit:
-            submit.click()
-        page.wait_for_timeout(1500)
+        email_inp = page.locator("input[type='email']").first
+        if email_inp.is_visible():
+            email_inp.fill(email)
+            page.wait_for_timeout(1000)
 
-        pw_field = page.locator("input[type='password']").first
-        pw_visible = pw_field.is_visible()
-        if pw_visible:
-            pw_field.fill(password)
+        pw_inp = page.locator("input[type='password']").first
+        if pw_inp.is_visible():
+            pw_inp.fill(password)
             page.wait_for_timeout(500)
             page.keyboard.press("Enter")
         else:
-            page.evaluate("""(args) => {
-                const pw = Array.from(document.querySelectorAll('input')).find(i => i.type === 'password');
-                if (!pw) return;
+            page.evaluate("""(pw) => {
+                const inp = Array.from(document.querySelectorAll('input')).find(i => i.type === 'password');
+                if (!inp) return;
                 const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value').set;
-                setter.call(pw, args.pw);
-                pw.dispatchEvent(new Event('input', {bubbles: true}));
-                pw.dispatchEvent(new Event('change', {bubbles: true}));
-            }""", {"pw": password})
+                setter.call(inp, pw);
+                inp.dispatchEvent(new Event('input', {bubbles: true}));
+            }""", password)
             page.wait_for_timeout(500)
-            page.evaluate("""() => {
-                const btn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.includes('Sign in'));
-                if (btn) btn.click();
-            }""")
+            page.keyboard.press("Enter")
 
         page.wait_for_timeout(5000)
     except Exception:
         pass
 
     if "checkpoint" in page.url.lower():
-        print("LinkedIn: security checkpoint — open a headed browser session.")
+        print("\nLinkedIn security challenge: open a headed browser to complete it once.")
+        print("Cookies will be saved for future runs.")
         return _headed_login(email, password)
 
     if "feed" in page.url or "login" not in page.url.lower():
         save_cookies(context)
         return True
 
-    print("LinkedIn: automated login failed — trying manual login.")
+    print("\nLinkedIn login failed — open a headed browser for manual login.")
     return _headed_login(email, password)
 
 
