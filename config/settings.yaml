@@ -23,6 +23,24 @@ scrapers:
     enabled: true
     max_jobs: 15
 
+  linkedin:
+    enabled: false
+    query: "DevOps Engineer"
+    location: "India"
+
+  hirist:
+    enabled: false
+    query: "devops"
+
+  ambitionbox:
+    enabled: false
+    query: "devops"
+    location: "bangalore"
+
+  builtin:
+    enabled: false
+    query: "devops-engineer"
+
 notifications:
   telegram:
     enabled: true
