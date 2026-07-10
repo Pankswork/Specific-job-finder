@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 
 from src.config import load_seen_jobs, save_seen_jobs, append_history
 from src.models import JobPost, ScoredJob
@@ -24,6 +24,6 @@ def record_scored(jobs: list[ScoredJob]):
             "score": sj.score,
             "reasoning": sj.reasoning,
             "matched_skills": sj.matched_skills,
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": datetime.now(timezone.utc).isoformat(),
         })
     append_history(entries)

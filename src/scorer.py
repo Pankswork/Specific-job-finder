@@ -37,7 +37,7 @@ JOB:
 - Title: {job.title}
 - Company: {job.company}
 - Location: {job.location}
-- Salary info in description: {job.description[:200 if job.description else 'N/A']}...
+- Salary info in description: {(job.description[:200] if job.description else 'N/A')}...
 - Full description: {job.description[:1800]}
 
 DECISION RULES (apply in order):

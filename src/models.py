@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 
@@ -13,7 +13,7 @@ class JobPost:
     description: str
     salary: Optional[str] = None
     posted_date: Optional[str] = None
-    scraped_at: str = field(default_factory=lambda: datetime.utcnow().isoformat())
+    scraped_at: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
     def fingerprint(self) -> str:
         return f"{self.company}::{self.title}::{self.location}"

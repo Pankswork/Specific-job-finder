@@ -1,5 +1,5 @@
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 
 from src.config import load_profile, load_settings
 from src.models import RunSummary
@@ -16,7 +16,7 @@ def main():
     scoring_settings = settings.get("scoring", {})
     threshold_notify = scoring_settings.get("threshold_notify", 75)
 
-    print(f"[{datetime.utcnow().isoformat()}] {app_settings.get('name', 'Job Agent')} v{app_settings.get('version', '0')}")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] {app_settings.get('name', 'Job Agent')} v{app_settings.get('version', '0')}")
     print(f"Profile: {profile['name']} | Target: {', '.join(profile['target_roles'])}")
     print()
 
