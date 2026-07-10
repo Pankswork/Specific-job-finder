@@ -59,6 +59,8 @@ class AdzunaScraper(BaseScraper):
                 if not title or not url:
                     continue
 
+                posted_date = item.get("created") or None
+
                 jobs.append(JobPost(
                     title=title,
                     company=company,
@@ -67,6 +69,7 @@ class AdzunaScraper(BaseScraper):
                     source="adzuna",
                     description=description,
                     salary=salary,
+                    posted_date=posted_date,
                 ))
         except Exception as e:
             errors.append(f"adzuna: {e}")

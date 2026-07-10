@@ -1,5 +1,6 @@
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 
 from src.config import load_profile, load_settings
 from src.models import RunSummary
@@ -41,6 +42,27 @@ def main():
 
     new_jobs = filter_new_jobs(all_jobs)
     print(f"New (unseen) jobs: {len(new_jobs)}")
+
+    max_age = scoring_settings.get("max_job_age_days", 0)
+    if max_age > 0:
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max_age)
+        before = len(new_jobs)
+        def _parse_date(s: str) -> datetime | None:
+            try:
+                return datetime.fromisoformat(s.replace("Z", "+00:00")).replace(tzinfo=timezone.utc)
+            except ValueError:
+                pass
+            try:
+                return parsedate_to_datetime(s).replace(tzinfo=timezone.utc)
+            except Exception:
+                return None
+        new_jobs = [
+            j for j in new_jobs
+            if not j.posted_date or (d := _parse_date(j.posted_date)) is None or d >= cutoff
+        ]
+        filtered = before - len(new_jobs)
+        if filtered:
+            print(f"Filtered out {filtered} jobs older than {max_age} days")
 
     if not new_jobs:
         print("No new jobs to score.")

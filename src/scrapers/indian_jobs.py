@@ -59,6 +59,12 @@ class HiristScraper(BaseScraper):
                 if salary_min or salary_max:
                     salary = f"₹{salary_min}L - ₹{salary_max}L"
 
+                posted_date = None
+                created_ms = item.get("createdTimeMs")
+                if created_ms:
+                    from datetime import datetime, timezone
+                    posted_date = datetime.fromtimestamp(created_ms / 1000, tz=timezone.utc).isoformat()
+
                 title_lower = title.lower()
                 if not title or not url:
                     continue

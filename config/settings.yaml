@@ -6,6 +6,7 @@ scoring:
   threshold_notify: 60
   threshold_strong: 85
   min_description_length: 100
+  max_job_age_days: 4
 
 scheduler:
   interval_hours: 2

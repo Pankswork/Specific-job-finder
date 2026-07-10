@@ -1,208 +1,25 @@
 [
   {
-    "fingerprint": "Unknown::Qualifyze: Senior DevOps Engineer::Remote",
-    "title": "Qualifyze: Senior DevOps Engineer",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/qualifyze-senior-devops-engineer",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307712+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Bright Vision Technologies: Site Reliability Engineer (SRE)::Remote",
-    "title": "Bright Vision Technologies: Site Reliability Engineer (SRE)",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/bright-vision-technologies-site-reliability-engineer-sre",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 5+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307739+00:00"
-  },
-  {
-    "fingerprint": "Midnight Foundation::IO Global: DevOps Engineer - Midnight Foundation::Remote",
-    "title": "IO Global: DevOps Engineer - Midnight Foundation",
-    "company": "Midnight Foundation",
-    "url": "https://weworkremotely.com/remote-jobs/io-global-devops-engineer-midnight-foundation",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 5+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307746+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Agilent Technologies: DevOps & Platform Engineer (AWS / CI/CD)::Remote",
-    "title": "Agilent Technologies: DevOps & Platform Engineer (AWS / CI/CD)",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/agilent-technologies-devops-platform-engineer-aws-ci-cd",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 8+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307752+00:00"
-  },
-  {
-    "fingerprint": "Senior or Lead  (Remote Eligible)::Southwest Power Pool: DevOps SRE - Senior or Lead  (Remote Eligible)::Remote",
-    "title": "Southwest Power Pool: DevOps SRE - Senior or Lead  (Remote Eligible)",
-    "company": "Senior or Lead  (Remote Eligible)",
-    "url": "https://weworkremotely.com/remote-jobs/southwest-power-pool-devops-sre-senior-or-lead-remote-eligible",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307758+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Aura: DevOps Engineer::Remote",
-    "title": "Aura: DevOps Engineer",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/aura-devops-engineer",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 5+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307764+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Philips Deutschland: 581321 DevOps Engineer Testing (all genders)::Remote",
-    "title": "Philips Deutschland: 581321 DevOps Engineer Testing (all genders)",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/philips-deutschland-581321-devops-engineer-testing-all-genders",
-    "source": "weworkremotely",
-    "score": 81,
-    "reasoning": "Matched 2 skills (+10 AI)",
-    "matched_skills": [
-      "Python",
-      "Git"
-    ],
-    "timestamp": "2026-07-10T11:48:37.307769+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Air Apps: DevOps Engineer Mobile::Remote",
-    "title": "Air Apps: DevOps Engineer Mobile",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/air-apps-devops-engineer-mobile",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 3+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307774+00:00"
-  },
-  {
-    "fingerprint": "Unknown::AssureSoft: DevOps Engineer::Remote",
-    "title": "AssureSoft: DevOps Engineer",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/assuresoft-devops-engineer",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 15+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307779+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Bruker Corporation: Working Student (m/f/d) DevOps \u2013 Software Development::Remote",
-    "title": "Bruker Corporation: Working Student (m/f/d) DevOps \u2013 Software Development",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/bruker-corporation-working-student-m-f-d-devops-software-development",
-    "source": "weworkremotely",
-    "score": 73,
-    "reasoning": "Matched 1 skills (+10 AI)",
-    "matched_skills": [
-      "Git"
-    ],
-    "timestamp": "2026-07-10T11:48:37.307784+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Deutsche Telekom IT Solutions Slovakia: DevOps Engineer  REF1752R (m/f/d)::Remote",
-    "title": "Deutsche Telekom IT Solutions Slovakia: DevOps Engineer  REF1752R (m/f/d)",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/deutsche-telekom-it-solutions-slovakia-devops-engineer-ref1752r-m-f-d",
-    "source": "weworkremotely",
-    "score": 100,
-    "reasoning": "Matched 12 skills (+10 AI)",
-    "matched_skills": [
-      "AWS",
-      "Terraform",
-      "Docker",
-      "Kubernetes",
-      "Helm",
-      "Jenkins",
-      "Prometheus",
-      "Grafana",
-      "Python",
-      "Bash",
-      "Linux",
-      "Git"
-    ],
-    "timestamp": "2026-07-10T11:48:37.307789+00:00"
-  },
-  {
-    "fingerprint": "Infrastructure Systems::Golden 1 Credit Union: IT - Infrastructure Systems - DevOps Engineer II (Remote in CA only)::Remote",
-    "title": "Golden 1 Credit Union: IT - Infrastructure Systems - DevOps Engineer II (Remote in CA only)",
-    "company": "Infrastructure Systems",
-    "url": "https://weworkremotely.com/remote-jobs/golden-1-credit-union-it-infrastructure-systems-devops-engineer-ii-remote-in-ca",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Requires 4+ years experience",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307794+00:00"
-  },
-  {
-    "fingerprint": "(REMOTE)::Charles River: Senior InfoSec Engineer (SecDevOps) - (REMOTE)::Remote",
-    "title": "Charles River: Senior InfoSec Engineer (SecDevOps) - (REMOTE)",
-    "company": "(REMOTE)",
-    "url": "https://weworkremotely.com/remote-jobs/charles-river-senior-infosec-engineer-secdevops-remote",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307798+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Revvity: Principal DevOps Engineer \u2013 Build, Release and Cloud Automation::Remote",
-    "title": "Revvity: Principal DevOps Engineer \u2013 Build, Release and Cloud Automation",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/revvity-principal-devops-engineer-build-release-and-cloud-automation",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307803+00:00"
-  },
-  {
-    "fingerprint": "Unknown::Runware: Staff DevOps Engineer::Remote",
-    "title": "Runware: Staff DevOps Engineer",
-    "company": "Unknown",
-    "url": "https://weworkremotely.com/remote-jobs/runware-staff-devops-engineer",
-    "source": "weworkremotely",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307808+00:00"
-  },
-  {
-    "fingerprint": "RM Technology::DevOps Engineer::Trivandrum, Kerala, IndiaBe an early applicant23 minutes ago",
+    "fingerprint": "RM Technology::DevOps Engineer::Trivandrum, Kerala, IndiaBe an early applicant48 minutes ago",
     "title": "DevOps Engineer",
     "company": "RM Technology",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-rm-technology-4435982532?position=1&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=B4JmyzRdQ75fe5d8iP%2BvNg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-rm-technology-4435982532?position=1&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=B4JmyzRdQ75fe5d8iP%2BvNg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307813+00:00"
+    "timestamp": "2026-07-10T12:14:00.479563+00:00"
   },
   {
     "fingerprint": "RoboMQ::DevOps Engineer::Jaipur, Rajasthan, India4 days ago",
     "title": "DevOps Engineer",
     "company": "RoboMQ",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-robomq-4437170445?position=2&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=U8nyjfD6NL6JFHdXlcWOmw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-robomq-4437170445?position=2&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=U8nyjfD6NL6JFHdXlcWOmw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307817+00:00"
+    "timestamp": "2026-07-10T12:14:00.479586+00:00"
   },
   {
     "fingerprint": "iCliniq - The Virtual Hospital::DevOps Engineer::Coimbatore, Tamil Nadu, India4 days ago",
@@ -213,554 +30,554 @@
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307822+00:00"
+    "timestamp": "2026-07-10T12:14:00.479592+00:00"
   },
   {
     "fingerprint": "Accenture in India::DevOps Engineer::Chennai, Tamil Nadu, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Accenture in India",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-accenture-in-india-4437853177?position=4&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=VF1ok6Jo0o0KSXBVeNMFvQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-accenture-in-india-4437853177?position=4&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=VF1ok6Jo0o0KSXBVeNMFvQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307826+00:00"
+    "timestamp": "2026-07-10T12:14:00.479596+00:00"
   },
   {
     "fingerprint": "MVPRockets::DevOps Engineer::Bengaluru, Karnataka, India5 days ago",
     "title": "DevOps Engineer",
     "company": "MVPRockets",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-mvprockets-4436950474?position=5&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=reOd%2BYcEVgivBVpsvO7uzA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-mvprockets-4436950474?position=5&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=reOd%2BYcEVgivBVpsvO7uzA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307830+00:00"
+    "timestamp": "2026-07-10T12:14:00.479600+00:00"
   },
   {
     "fingerprint": "FINVASIA::DevOps Engineer::Mohali district, India6 hours ago",
     "title": "DevOps Engineer",
     "company": "FINVASIA",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-finvasia-4437974020?position=6&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=tZjpMpSFVS%2BzfoIdz8RTeg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-finvasia-4437974020?position=6&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=tZjpMpSFVS%2BzfoIdz8RTeg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307834+00:00"
+    "timestamp": "2026-07-10T12:14:00.479605+00:00"
   },
   {
     "fingerprint": "ServCrust::DevOps Engineer::Hyderabad, Telangana, India5 days ago",
     "title": "DevOps Engineer",
     "company": "ServCrust",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-servcrust-4436988522?position=7&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=aK6YRcTORbR0M9zwTxxaLg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-servcrust-4436988522?position=7&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=aK6YRcTORbR0M9zwTxxaLg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307838+00:00"
+    "timestamp": "2026-07-10T12:14:00.479609+00:00"
   },
   {
     "fingerprint": "BOMBAYDC::DevOps Engineer- Immediate joiners preferred::Mumbai, Maharashtra, India1 day ago",
     "title": "DevOps Engineer- Immediate joiners preferred",
     "company": "BOMBAYDC",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-immediate-joiners-preferred-at-bombaydc-4438610172?position=8&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=hiYBSl6DuIewECGyrIy%2Bcg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-immediate-joiners-preferred-at-bombaydc-4438610172?position=8&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=hiYBSl6DuIewECGyrIy%2Bcg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307842+00:00"
+    "timestamp": "2026-07-10T12:14:00.479613+00:00"
   },
   {
     "fingerprint": "Accenture in India::Site Reliability Engineer Specialist::Kochi, Kerala, India6 days ago",
     "title": "Site Reliability Engineer Specialist",
     "company": "Accenture in India",
-    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-specialist-at-accenture-in-india-4433193824?position=9&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=FnwILZLQq%2FjHyC0fx%2F0VoA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-specialist-at-accenture-in-india-4433193824?position=9&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=FnwILZLQq%2FjHyC0fx%2F0VoA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307846+00:00"
+    "timestamp": "2026-07-10T12:14:00.479617+00:00"
   },
   {
-    "fingerprint": "Revin Krishi::DevOps Engineer::Palakkad, Kerala, IndiaBe an early applicant38 minutes ago",
+    "fingerprint": "Revin Krishi::DevOps Engineer::Palakkad, Kerala, IndiaBe an early applicant1 hour ago",
     "title": "DevOps Engineer",
     "company": "Revin Krishi",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-revin-krishi-4439046566?position=10&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=NR%2FBn%2FocONPPy0he9ld1UA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-revin-krishi-4439046566?position=10&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=NR%2FBn%2FocONPPy0he9ld1UA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307851+00:00"
+    "timestamp": "2026-07-10T12:14:00.479621+00:00"
   },
   {
     "fingerprint": "Sia::DevOps Engineer::Mumbai, Maharashtra, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Sia",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-sia-4438186074?position=11&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=bLIgZoQ%2BapiqKY%2F9%2B%2B%2BxUQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-sia-4438186074?position=11&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=bLIgZoQ%2BapiqKY%2F9%2B%2B%2BxUQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307855+00:00"
+    "timestamp": "2026-07-10T12:14:00.479624+00:00"
   },
   {
     "fingerprint": "Prodigal::DevSecOps Engineer::Bengaluru, Karnataka, India2 days ago",
     "title": "DevSecOps Engineer",
     "company": "Prodigal",
-    "url": "https://in.linkedin.com/jobs/view/devsecops-engineer-at-prodigal-4437804641?position=12&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=VL6Sx%2B%2BC1OSyUmGm5630MA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devsecops-engineer-at-prodigal-4437804641?position=12&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=VL6Sx%2B%2BC1OSyUmGm5630MA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307860+00:00"
+    "timestamp": "2026-07-10T12:14:00.479628+00:00"
   },
   {
     "fingerprint": "Softobiz::SB-1445-DevOps Engineer::Kochi, Kerala, India6 days ago",
     "title": "SB-1445-DevOps Engineer",
     "company": "Softobiz",
-    "url": "https://in.linkedin.com/jobs/view/sb-1445-devops-engineer-at-softobiz-4436928938?position=13&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=EqjL6X3o3sdxbdnROXT%2FYw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/sb-1445-devops-engineer-at-softobiz-4436928938?position=13&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=EqjL6X3o3sdxbdnROXT%2FYw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307864+00:00"
+    "timestamp": "2026-07-10T12:14:00.479632+00:00"
   },
   {
     "fingerprint": "Dayal Group::DevOps Engineer::Meerut, Uttar Pradesh, India5 days ago",
     "title": "DevOps Engineer",
     "company": "Dayal Group",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-dayal-group-4436003133?position=14&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=V1Vp7TNwxL93SPD1WOIviw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-dayal-group-4436003133?position=14&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=V1Vp7TNwxL93SPD1WOIviw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307868+00:00"
+    "timestamp": "2026-07-10T12:14:00.479636+00:00"
   },
   {
     "fingerprint": "NEC Software Solutions (India)::Devops Engineer::Mumbai Metropolitan Region3 hours ago",
     "title": "Devops Engineer",
     "company": "NEC Software Solutions (India)",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-india-4439020476?position=15&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=RgjA2JongVF2Pw8G8FR4Ig%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-india-4439020476?position=15&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=RgjA2JongVF2Pw8G8FR4Ig%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307872+00:00"
+    "timestamp": "2026-07-10T12:14:00.479640+00:00"
   },
   {
     "fingerprint": "NEC Software Solutions (India)::Devops Engineer::Mumbai, Maharashtra, India3 days ago",
     "title": "Devops Engineer",
     "company": "NEC Software Solutions (India)",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-india-4437413688?position=16&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=RtXmy67vbv%2BkxTjp5rfsFQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-india-4437413688?position=16&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=RtXmy67vbv%2BkxTjp5rfsFQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307875+00:00"
+    "timestamp": "2026-07-10T12:14:00.479643+00:00"
   },
   {
     "fingerprint": "ProApps Solutions::DevOps Engineer::Vadodara, Gujarat, India8 hours ago",
     "title": "DevOps Engineer",
     "company": "ProApps Solutions",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-proapps-solutions-4437953256?position=17&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=CXmV4XFje7ift2GIR%2Bb1yw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-proapps-solutions-4437953256?position=17&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=CXmV4XFje7ift2GIR%2Bb1yw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307879+00:00"
+    "timestamp": "2026-07-10T12:14:00.479647+00:00"
   },
   {
     "fingerprint": "NEC Software Solutions::Devops Engineer::Mumbai Metropolitan Region3 days ago",
     "title": "Devops Engineer",
     "company": "NEC Software Solutions",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-4436225024?position=18&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=9iqpRd8LnI0DohRNXJewKA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-4436225024?position=18&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=9iqpRd8LnI0DohRNXJewKA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307883+00:00"
+    "timestamp": "2026-07-10T12:14:00.479650+00:00"
   },
   {
     "fingerprint": "ADP::DevOps Engineer::Hyderabad, Telangana, India4 days ago",
     "title": "DevOps Engineer",
     "company": "ADP",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-adp-4433913379?position=19&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=Q8IPZugTQeTZnNgMj%2BVrrw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-adp-4433913379?position=19&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=Q8IPZugTQeTZnNgMj%2BVrrw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307887+00:00"
+    "timestamp": "2026-07-10T12:14:00.479654+00:00"
   },
   {
     "fingerprint": "Storable::DevOps II::Hyderabad, Telangana, India1 day ago",
     "title": "DevOps II",
     "company": "Storable",
-    "url": "https://in.linkedin.com/jobs/view/devops-ii-at-storable-4437372046?position=20&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=AH0glU2uecVeZ7Uy9See0Q%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-ii-at-storable-4437372046?position=20&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=AH0glU2uecVeZ7Uy9See0Q%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307891+00:00"
+    "timestamp": "2026-07-10T12:14:00.479657+00:00"
   },
   {
-    "fingerprint": "Zuora::Dev. Ops Engineer::Chennai, Tamil Nadu, India2 hours ago",
+    "fingerprint": "Zuora::Dev. Ops Engineer::Chennai, Tamil Nadu, India3 hours ago",
     "title": "Dev. Ops Engineer",
     "company": "Zuora",
-    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-zuora-4419864267?position=21&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=UkwHavnlyTPJ96dHL5nUpQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-zuora-4419864267?position=21&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=UkwHavnlyTPJ96dHL5nUpQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307895+00:00"
+    "timestamp": "2026-07-10T12:14:00.479661+00:00"
   },
   {
     "fingerprint": "Setoo::DevOps Engineer::Pune Division, Maharashtra, India3 days ago",
     "title": "DevOps Engineer",
     "company": "Setoo",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-setoo-4436544762?position=22&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=kdf%2Fer%2B6PgyL0mgLVj%2FaBg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-setoo-4436544762?position=22&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=kdf%2Fer%2B6PgyL0mgLVj%2FaBg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307899+00:00"
+    "timestamp": "2026-07-10T12:14:00.479664+00:00"
   },
   {
     "fingerprint": "Planys Technologies::DevOps Engineer::Chennai, Tamil Nadu, India1 day ago",
     "title": "DevOps Engineer",
     "company": "Planys Technologies",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-planys-technologies-4437361216?position=23&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=pF5yC4MtRWZGRwt%2BnPP%2BGw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-planys-technologies-4437361216?position=23&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=pF5yC4MtRWZGRwt%2BnPP%2BGw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307902+00:00"
+    "timestamp": "2026-07-10T12:14:00.479668+00:00"
   },
   {
     "fingerprint": "Euphoric Thought Technologies Pvt. Ltd.::Devops Engineer::Mumbai Metropolitan Region5 days ago",
     "title": "Devops Engineer",
     "company": "Euphoric Thought Technologies Pvt. Ltd.",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-euphoric-thought-technologies-pvt-ltd-4433738863?position=24&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=6GF87L8mer1%2Br3PrWCqUoQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-euphoric-thought-technologies-pvt-ltd-4433738863?position=24&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=6GF87L8mer1%2Br3PrWCqUoQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307906+00:00"
+    "timestamp": "2026-07-10T12:14:00.479672+00:00"
   },
   {
     "fingerprint": "Worldline::Cloud DevOps::Chennai, Tamil Nadu, India3 days ago",
     "title": "Cloud DevOps",
     "company": "Worldline",
-    "url": "https://in.linkedin.com/jobs/view/cloud-devops-at-worldline-4418667846?position=25&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=blG6WaWBUdi%2BOFRwccj%2FnA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/cloud-devops-at-worldline-4418667846?position=25&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=blG6WaWBUdi%2BOFRwccj%2FnA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307910+00:00"
+    "timestamp": "2026-07-10T12:14:00.479675+00:00"
   },
   {
     "fingerprint": "AVP VIGILANT TECHNOLOGY PVT LTD::DevOps Engineer::Mumbai Metropolitan Region1 day ago",
     "title": "DevOps Engineer",
     "company": "AVP VIGILANT TECHNOLOGY PVT LTD",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437384699?position=26&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=%2F%2F9VjrkTpmOB7q5FolLKXQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437384699?position=26&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=%2F%2F9VjrkTpmOB7q5FolLKXQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307914+00:00"
+    "timestamp": "2026-07-10T12:14:00.479684+00:00"
   },
   {
     "fingerprint": "Zorba AI::Site Reliability Engineer::Kochi, Kerala, IndiaBe an early applicant3 days ago",
     "title": "Site Reliability Engineer",
     "company": "Zorba AI",
-    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-at-zorba-ai-4436529370?position=27&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=IN9ZefPZ8sLtnjidNLCkrg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-at-zorba-ai-4436529370?position=27&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=IN9ZefPZ8sLtnjidNLCkrg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307918+00:00"
+    "timestamp": "2026-07-10T12:14:00.479689+00:00"
   },
   {
-    "fingerprint": "Collinson Group::DevOps Engineer::Mumbai, Maharashtra, India1 day ago",
+    "fingerprint": "Collinson Group::DevOps Engineer::Mumbai, Maharashtra, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Collinson Group",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-collinson-group-4434853119?position=28&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=n3sgfgd3zpdtCl7YR4CjMQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-collinson-group-4434853119?position=28&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=n3sgfgd3zpdtCl7YR4CjMQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307923+00:00"
+    "timestamp": "2026-07-10T12:14:00.479693+00:00"
   },
   {
     "fingerprint": "Digital Aptech::Dev Ops Engineer::Kolkata, West Bengal, India1 day ago",
     "title": "Dev Ops Engineer",
     "company": "Digital Aptech",
-    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-digital-aptech-4437066665?position=29&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=2HbIXz3zj9fiWunoSomuDg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-digital-aptech-4437066665?position=29&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=2HbIXz3zj9fiWunoSomuDg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307927+00:00"
+    "timestamp": "2026-07-10T12:14:00.479696+00:00"
   },
   {
-    "fingerprint": "Jupiter::Devops Engineer - SDE 2::Bengaluru, Karnataka, India5 hours ago",
+    "fingerprint": "Jupiter::Devops Engineer - SDE 2::Bengaluru, Karnataka, India6 hours ago",
     "title": "Devops Engineer - SDE 2",
     "company": "Jupiter",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-sde-2-at-jupiter-4435955357?position=30&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=T9jCJGU2rAcAS3YlPTI0lQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-sde-2-at-jupiter-4435955357?position=30&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=T9jCJGU2rAcAS3YlPTI0lQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307930+00:00"
+    "timestamp": "2026-07-10T12:14:00.479700+00:00"
   },
   {
-    "fingerprint": "Setoo::DevOps Engineer::Pune City, Maharashtra, IndiaBe an early applicant33 minutes ago",
+    "fingerprint": "Setoo::DevOps Engineer::Pune City, Maharashtra, IndiaBe an early applicant58 minutes ago",
     "title": "DevOps Engineer",
     "company": "Setoo",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-setoo-4439060051?position=31&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=iJKWruwnCBp%2BGYM0EXsWHw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-setoo-4439060051?position=31&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=iJKWruwnCBp%2BGYM0EXsWHw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307934+00:00"
+    "timestamp": "2026-07-10T12:14:00.479703+00:00"
   },
   {
     "fingerprint": "BNP Paribas::DevOps Engineer::Mumbai Metropolitan Region6 days ago",
     "title": "DevOps Engineer",
     "company": "BNP Paribas",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-bnp-paribas-4427973517?position=32&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=VqK7N7ieYkW6NQo3cr1QeQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-bnp-paribas-4427973517?position=32&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=VqK7N7ieYkW6NQo3cr1QeQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307938+00:00"
+    "timestamp": "2026-07-10T12:14:00.479706+00:00"
   },
   {
     "fingerprint": "Kodo::DevOps Engineer (Azure)::Mumbai Metropolitan Region5 days ago",
     "title": "DevOps Engineer (Azure)",
     "company": "Kodo",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-azure-at-kodo-4436948527?position=33&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=OhPMlqUESGb17zfYhfcQRA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-azure-at-kodo-4436948527?position=33&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=OhPMlqUESGb17zfYhfcQRA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307942+00:00"
+    "timestamp": "2026-07-10T12:14:00.479710+00:00"
   },
   {
-    "fingerprint": "SWITS DIGITAL Private Limited::SRE DevOps::Chennai, Tamil Nadu, IndiaBe an early applicant19 minutes ago",
+    "fingerprint": "SWITS DIGITAL Private Limited::SRE DevOps::Chennai, Tamil Nadu, IndiaBe an early applicant45 minutes ago",
     "title": "SRE DevOps",
     "company": "SWITS DIGITAL Private Limited",
-    "url": "https://in.linkedin.com/jobs/view/sre-devops-at-swits-digital-private-limited-4439051397?position=34&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=Q4nYW3M8HMsC90GzO2XKTA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/sre-devops-at-swits-digital-private-limited-4439051397?position=34&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=Q4nYW3M8HMsC90GzO2XKTA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307946+00:00"
+    "timestamp": "2026-07-10T12:14:00.479714+00:00"
   },
   {
     "fingerprint": "HubSpot::DevOps Engineer::India4 days ago",
     "title": "DevOps Engineer",
     "company": "HubSpot",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-hubspot-4436085092?position=35&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=JD%2FYIqMifeTtfZBl2op0dw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-hubspot-4436085092?position=35&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=JD%2FYIqMifeTtfZBl2op0dw%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307949+00:00"
+    "timestamp": "2026-07-10T12:14:00.479717+00:00"
   },
   {
     "fingerprint": "EG A/S::Devops Engineer::Mangaluru, Karnataka, India1 day ago",
     "title": "Devops Engineer",
     "company": "EG A/S",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-eg-a-s-4438280281?position=36&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=vna3clEWlaGhv83zGEkCIQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-eg-a-s-4438280281?position=36&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=vna3clEWlaGhv83zGEkCIQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307953+00:00"
+    "timestamp": "2026-07-10T12:14:00.479721+00:00"
   },
   {
     "fingerprint": "Equifax::Site Reliability Engineer-Career::Trivandrum, Kerala, India2 days ago",
     "title": "Site Reliability Engineer-Career",
     "company": "Equifax",
-    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-career-at-equifax-4418249720?position=37&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=XrgZdlmmlEQ1QUeZQEFoCA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-career-at-equifax-4418249720?position=37&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=XrgZdlmmlEQ1QUeZQEFoCA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307956+00:00"
+    "timestamp": "2026-07-10T12:14:00.479724+00:00"
   },
   {
     "fingerprint": "JAGGAER::Cloud Engineer::Greater Hyderabad Area17 hours ago",
     "title": "Cloud Engineer",
     "company": "JAGGAER",
-    "url": "https://in.linkedin.com/jobs/view/cloud-engineer-at-jaggaer-4410797051?position=38&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=dsvBhobQR2VkY63YbJ7IFg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/cloud-engineer-at-jaggaer-4410797051?position=38&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=dsvBhobQR2VkY63YbJ7IFg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307960+00:00"
+    "timestamp": "2026-07-10T12:14:00.479727+00:00"
   },
   {
     "fingerprint": "Mareana::Cloud & DevOps Engineer::Bengaluru, Karnataka, India3 days ago",
     "title": "Cloud & DevOps Engineer",
     "company": "Mareana",
-    "url": "https://in.linkedin.com/jobs/view/cloud-devops-engineer-at-mareana-4434523059?position=39&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=RqyzBi4NZGrSLlbDbC5o2A%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/cloud-devops-engineer-at-mareana-4434523059?position=39&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=RqyzBi4NZGrSLlbDbC5o2A%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307964+00:00"
+    "timestamp": "2026-07-10T12:14:00.479731+00:00"
   },
   {
     "fingerprint": "Virtusa::DevOps Engineer::Chennai, Tamil Nadu, IndiaBe an early applicant15 hours ago",
     "title": "DevOps Engineer",
     "company": "Virtusa",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-virtusa-4435914235?position=40&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=fJbBjs5LOHA6oPAzVJE57w%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-virtusa-4435914235?position=40&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=fJbBjs5LOHA6oPAzVJE57w%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307967+00:00"
+    "timestamp": "2026-07-10T12:14:00.479734+00:00"
   },
   {
     "fingerprint": "BairesDev::DevOps/SRE Engineer - Remote Work | REF#297014::Madurai, Tamil Nadu, India1 day ago",
     "title": "DevOps/SRE Engineer - Remote Work | REF#297014",
     "company": "BairesDev",
-    "url": "https://in.linkedin.com/jobs/view/devops-sre-engineer-remote-work-ref%23297014-at-bairesdev-4438275091?position=41&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=Vdx1VPADJ6%2FRPFsoZRcttg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-sre-engineer-remote-work-ref%23297014-at-bairesdev-4438275091?position=41&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=Vdx1VPADJ6%2FRPFsoZRcttg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307971+00:00"
+    "timestamp": "2026-07-10T12:14:00.479737+00:00"
   },
   {
-    "fingerprint": "Euphoric Thought Technologies Pvt. Ltd.::Devops Engineer::Bengaluru, Karnataka, IndiaBe an early applicant26 minutes ago",
+    "fingerprint": "Euphoric Thought Technologies Pvt. Ltd.::Devops Engineer::Bengaluru, Karnataka, IndiaBe an early applicant51 minutes ago",
     "title": "Devops Engineer",
     "company": "Euphoric Thought Technologies Pvt. Ltd.",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-euphoric-thought-technologies-pvt-ltd-4439046611?position=42&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=VQEDyqN9jXSI%2Bx51LsjzvQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-euphoric-thought-technologies-pvt-ltd-4439046611?position=42&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=VQEDyqN9jXSI%2Bx51LsjzvQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307975+00:00"
+    "timestamp": "2026-07-10T12:14:00.479741+00:00"
   },
   {
     "fingerprint": "GeekyAnts::DevOps Engineer::Bengaluru, Karnataka, India3 days ago",
     "title": "DevOps Engineer",
     "company": "GeekyAnts",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-geekyants-4437749125?position=43&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=2iztEqL5gU%2FloP8uM2BX4w%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-geekyants-4437749125?position=43&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=2iztEqL5gU%2FloP8uM2BX4w%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307979+00:00"
+    "timestamp": "2026-07-10T12:14:00.479744+00:00"
   },
   {
     "fingerprint": "Plume::Site Reliability Engineer::Hyderabad, Telangana, India4 days ago",
     "title": "Site Reliability Engineer",
     "company": "Plume",
-    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-at-plume-4437410839?position=44&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=RtAItY9nUk7su7lnUhnrjQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-at-plume-4437410839?position=44&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=RtAItY9nUk7su7lnUhnrjQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307982+00:00"
+    "timestamp": "2026-07-10T12:14:00.479748+00:00"
   },
   {
     "fingerprint": "CHEP::Cloud Developer::Bengaluru, Karnataka, India6 days ago",
     "title": "Cloud Developer",
     "company": "CHEP",
-    "url": "https://in.linkedin.com/jobs/view/cloud-developer-at-chep-4408540455?position=45&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=ltN6Tia3Q7kMlLoVlgK9PA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/cloud-developer-at-chep-4408540455?position=45&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=ltN6Tia3Q7kMlLoVlgK9PA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307986+00:00"
+    "timestamp": "2026-07-10T12:14:00.479751+00:00"
   },
   {
     "fingerprint": "Virtusa::AWS Devops::Bangalore Urban, Karnataka, India21 hours ago",
     "title": "AWS Devops",
     "company": "Virtusa",
-    "url": "https://in.linkedin.com/jobs/view/aws-devops-at-virtusa-4435689325?position=46&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=mK34bWJ93%2B9BD%2Fm1alFb8w%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/aws-devops-at-virtusa-4435689325?position=46&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=mK34bWJ93%2B9BD%2Fm1alFb8w%3D%3D",
     "source": "linkedin",
     "score": 68,
     "reasoning": "Matched 1 skills",
     "matched_skills": [
       "AWS"
     ],
-    "timestamp": "2026-07-10T11:48:37.307990+00:00"
+    "timestamp": "2026-07-10T12:14:00.479758+00:00"
   },
   {
     "fingerprint": "GeoServe::DevSecOps Engineer::Bengaluru, Karnataka, India3 hours ago",
     "title": "DevSecOps Engineer",
     "company": "GeoServe",
-    "url": "https://in.linkedin.com/jobs/view/devsecops-engineer-at-geoserve-4435962413?position=47&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=mqR5WhdceWDMTe7RXcvZ8A%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devsecops-engineer-at-geoserve-4435962413?position=47&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=mqR5WhdceWDMTe7RXcvZ8A%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307994+00:00"
+    "timestamp": "2026-07-10T12:14:00.479761+00:00"
   },
   {
     "fingerprint": "Admaren Tech Private Limited::Lead Devops Engineer::Kochi, Kerala, India1 day ago",
     "title": "Lead Devops Engineer",
     "company": "Admaren Tech Private Limited",
-    "url": "https://in.linkedin.com/jobs/view/lead-devops-engineer-at-admaren-tech-private-limited-4437350818?position=48&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=U5NMTd49U%2F2U6hIW%2FUiC%2BQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/lead-devops-engineer-at-admaren-tech-private-limited-4437350818?position=48&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=U5NMTd49U%2F2U6hIW%2FUiC%2BQ%3D%3D",
     "source": "linkedin",
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.307997+00:00"
+    "timestamp": "2026-07-10T12:14:00.479765+00:00"
   },
   {
     "fingerprint": "Toradex::DevOps Engineer::Bengaluru, Karnataka, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Toradex",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-toradex-4437778637?position=49&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=toLw932xjaLVjYGNUQKGJg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-toradex-4437778637?position=49&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=toLw932xjaLVjYGNUQKGJg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308001+00:00"
+    "timestamp": "2026-07-10T12:14:00.479768+00:00"
   },
   {
     "fingerprint": "Arbor Education::Senior DevOps Engineer::Thiruvananthapuram, Kerala, India1 day ago",
     "title": "Senior DevOps Engineer",
     "company": "Arbor Education",
-    "url": "https://in.linkedin.com/jobs/view/senior-devops-engineer-at-arbor-education-4438587976?position=50&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=c5kLYmL5AXUoPvDASBUbGg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/senior-devops-engineer-at-arbor-education-4438587976?position=50&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=c5kLYmL5AXUoPvDASBUbGg%3D%3D",
     "source": "linkedin",
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308005+00:00"
+    "timestamp": "2026-07-10T12:14:00.479771+00:00"
   },
   {
     "fingerprint": "Veradigm\u00ae::DevOps Engineer::Pune Division, Maharashtra, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Veradigm\u00ae",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-veradigm%C2%AE-4437843425?position=51&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=%2BkPsfGYwt1tnfiHKlryAkA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-veradigm%C2%AE-4437843425?position=51&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=%2BkPsfGYwt1tnfiHKlryAkA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308009+00:00"
+    "timestamp": "2026-07-10T12:14:00.479774+00:00"
   },
   {
     "fingerprint": "UsefulBI Corporation::DevOps Engineer::Bengaluru, Karnataka, India5 days ago",
     "title": "DevOps Engineer",
     "company": "UsefulBI Corporation",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-usefulbi-corporation-4436950477?position=52&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=6xeXx26i4OeoCT8TsuHhuA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-usefulbi-corporation-4436950477?position=52&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=6xeXx26i4OeoCT8TsuHhuA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308013+00:00"
+    "timestamp": "2026-07-10T12:14:00.479777+00:00"
   },
   {
     "fingerprint": "Capgemini::AWS Terraform - SRE::Hyderabad, Telangana, India4 days ago",
     "title": "AWS Terraform - SRE",
     "company": "Capgemini",
-    "url": "https://in.linkedin.com/jobs/view/aws-terraform-sre-at-capgemini-4427939821?position=53&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=QtkNa%2BskE09yi9bdflf%2Fxw%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/aws-terraform-sre-at-capgemini-4427939821?position=53&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=QtkNa%2BskE09yi9bdflf%2Fxw%3D%3D",
     "source": "linkedin",
     "score": 66,
     "reasoning": "Matched 2 skills",
@@ -768,86 +585,86 @@
       "AWS",
       "Terraform"
     ],
-    "timestamp": "2026-07-10T11:48:37.308016+00:00"
+    "timestamp": "2026-07-10T12:14:00.479781+00:00"
   },
   {
     "fingerprint": "Warner Music Group::DevOps Engineer::Bengaluru, Karnataka, India2 days ago",
     "title": "DevOps Engineer",
     "company": "Warner Music Group",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-warner-music-group-4438116341?position=54&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=%2FUz5iTr4URIhbPouKyBFNg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-warner-music-group-4438116341?position=54&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=%2FUz5iTr4URIhbPouKyBFNg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308020+00:00"
+    "timestamp": "2026-07-10T12:14:00.479784+00:00"
   },
   {
     "fingerprint": "BairesDev::DevOps/SRE Engineer - Remote Work | REF#297015::Mumbai, Maharashtra, India1 day ago",
     "title": "DevOps/SRE Engineer - Remote Work | REF#297015",
     "company": "BairesDev",
-    "url": "https://in.linkedin.com/jobs/view/devops-sre-engineer-remote-work-ref%23297015-at-bairesdev-4438269287?position=55&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=XeT8gpsi%2FyTAafSEwH%2FqAA%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-sre-engineer-remote-work-ref%23297015-at-bairesdev-4438269287?position=55&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=XeT8gpsi%2FyTAafSEwH%2FqAA%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308024+00:00"
+    "timestamp": "2026-07-10T12:14:00.479788+00:00"
   },
   {
     "fingerprint": "AVP VIGILANT TECHNOLOGY PVT LTD::DevOps Engineer::Bengaluru, Karnataka, India1 day ago",
     "title": "DevOps Engineer",
     "company": "AVP VIGILANT TECHNOLOGY PVT LTD",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437390523?position=56&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=sB7E2n9%2BakXyvUUzvEjzjg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437390523?position=56&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=sB7E2n9%2BakXyvUUzvEjzjg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308028+00:00"
+    "timestamp": "2026-07-10T12:14:00.479791+00:00"
   },
   {
     "fingerprint": "iTCart::DevOps Engineer::Bengaluru, Karnataka, India6 days ago",
     "title": "DevOps Engineer",
     "company": "iTCart",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-itcart-4433717354?position=57&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=Xq25F5Dx%2BkapBlMNWmtr5g%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-itcart-4433717354?position=57&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=Xq25F5Dx%2BkapBlMNWmtr5g%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308031+00:00"
+    "timestamp": "2026-07-10T12:14:00.479794+00:00"
   },
   {
-    "fingerprint": "Miratech::Junior DevOps Engineer with Amazon Connect::Roorkee, Uttarakhand, IndiaBe an early applicant16 minutes ago",
+    "fingerprint": "Miratech::Junior DevOps Engineer with Amazon Connect::Roorkee, Uttarakhand, IndiaBe an early applicant41 minutes ago",
     "title": "Junior DevOps Engineer with Amazon Connect",
     "company": "Miratech",
-    "url": "https://in.linkedin.com/jobs/view/junior-devops-engineer-with-amazon-connect-at-miratech-4439043933?position=58&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=h%2FVa1NUFVaQWxV0gL8u0tQ%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/junior-devops-engineer-with-amazon-connect-at-miratech-4439043933?position=58&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=h%2FVa1NUFVaQWxV0gL8u0tQ%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308035+00:00"
+    "timestamp": "2026-07-10T12:14:00.479797+00:00"
   },
   {
-    "fingerprint": "Wishtree Technologies::DevOps Engineer::Pune City, Maharashtra, IndiaBe an early applicant32 minutes ago",
+    "fingerprint": "Wishtree Technologies::DevOps Engineer::Pune City, Maharashtra, IndiaBe an early applicant58 minutes ago",
     "title": "DevOps Engineer",
     "company": "Wishtree Technologies",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-wishtree-technologies-4439060053?position=59&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=m40JYp6e0eQDmnUGeOBMUg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-wishtree-technologies-4439060053?position=59&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=m40JYp6e0eQDmnUGeOBMUg%3D%3D",
     "source": "linkedin",
     "score": 50,
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308039+00:00"
+    "timestamp": "2026-07-10T12:14:00.479800+00:00"
   },
   {
-    "fingerprint": "BNP Paribas::DevOps Engineer - Kubernetes::Chennai, Tamil Nadu, India12 minutes ago",
+    "fingerprint": "BNP Paribas::DevOps Engineer - Kubernetes::Chennai, Tamil Nadu, India37 minutes ago",
     "title": "DevOps Engineer - Kubernetes",
     "company": "BNP Paribas",
-    "url": "https://in.linkedin.com/jobs/view/devops-engineer-kubernetes-at-bnp-paribas-4411611791?position=60&pageNum=0&refId=1G0yCb4SbT58PoBtN%2B4ORA%3D%3D&trackingId=0gCKEJ9NjWEBn%2FyK0YQCsg%3D%3D",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-kubernetes-at-bnp-paribas-4411611791?position=60&pageNum=0&refId=F4OkWWe13PH9r%2Bowwv%2F6JA%3D%3D&trackingId=0gCKEJ9NjWEBn%2FyK0YQCsg%3D%3D",
     "source": "linkedin",
     "score": 58,
     "reasoning": "Matched 1 skills",
     "matched_skills": [
       "Kubernetes"
     ],
-    "timestamp": "2026-07-10T11:48:37.308042+00:00"
+    "timestamp": "2026-07-10T12:14:00.479804+00:00"
   },
   {
     "fingerprint": "VALUELABS SOLUTIONS LLP::Mobile DevOps Engineer::Hyderabad",
@@ -858,7 +675,7 @@
     "score": 0,
     "reasoning": "Requires 12+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308047+00:00"
+    "timestamp": "2026-07-10T12:14:00.479807+00:00"
   },
   {
     "fingerprint": "Acumont Solutions::DevOps Lead::Noida",
@@ -869,7 +686,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308051+00:00"
+    "timestamp": "2026-07-10T12:14:00.479810+00:00"
   },
   {
     "fingerprint": "hirist.tech::DevOps Engineer::Gurgaon/Gurugram",
@@ -880,7 +697,7 @@
     "score": 0,
     "reasoning": "Requires 8+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308056+00:00"
+    "timestamp": "2026-07-10T12:14:00.479814+00:00"
   },
   {
     "fingerprint": "Impelsys::DevOps Engineer::Bangalore",
@@ -891,7 +708,7 @@
     "score": 0,
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308060+00:00"
+    "timestamp": "2026-07-10T12:14:00.479817+00:00"
   },
   {
     "fingerprint": "Mareana::DevOps Engineer::Bangalore",
@@ -902,7 +719,7 @@
     "score": 0,
     "reasoning": "Requires 6+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308064+00:00"
+    "timestamp": "2026-07-10T12:14:00.479824+00:00"
   },
   {
     "fingerprint": "Yitro Consulting::Cloud DevOps Manager::Hyderabad",
@@ -913,7 +730,7 @@
     "score": 0,
     "reasoning": "Requires 16+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308089+00:00"
+    "timestamp": "2026-07-10T12:14:00.479830+00:00"
   },
   {
     "fingerprint": "EPAM Systems::Azure DevOps Engineer::Pune",
@@ -924,7 +741,7 @@
     "score": 0,
     "reasoning": "Requires 11+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308094+00:00"
+    "timestamp": "2026-07-10T12:14:00.479834+00:00"
   },
   {
     "fingerprint": "Cognida::DevOps Architect::Hyderabad",
@@ -935,7 +752,7 @@
     "score": 0,
     "reasoning": "Requires 18+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308098+00:00"
+    "timestamp": "2026-07-10T12:14:00.479837+00:00"
   },
   {
     "fingerprint": "LendingTree::Staff DevOps Engineer::Anywhere in India/Multiple Locations, Remote, Hyderabad",
@@ -946,7 +763,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308102+00:00"
+    "timestamp": "2026-07-10T12:14:00.479841+00:00"
   },
   {
     "fingerprint": "3clogic::DevOps Engineer::Noida",
@@ -957,7 +774,7 @@
     "score": 0,
     "reasoning": "Requires 6+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308106+00:00"
+    "timestamp": "2026-07-10T12:14:00.479844+00:00"
   },
   {
     "fingerprint": "Embitel Technologies::DevOps Engineer::Bangalore",
@@ -968,7 +785,7 @@
     "score": 0,
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308110+00:00"
+    "timestamp": "2026-07-10T12:14:00.479848+00:00"
   },
   {
     "fingerprint": "Qentelli::AWS DevOps Engineer::Hyderabad",
@@ -979,7 +796,7 @@
     "score": 0,
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308114+00:00"
+    "timestamp": "2026-07-10T12:14:00.479851+00:00"
   },
   {
     "fingerprint": "GoKwik::Senior DevOps Engineer::Gurgaon/Gurugram",
@@ -990,7 +807,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308118+00:00"
+    "timestamp": "2026-07-10T12:14:00.479855+00:00"
   },
   {
     "fingerprint": "ROUNDGLASS WELLBEING PRIVATE LIMITED::Lead DevOps Engineer::Mohali",
@@ -1001,7 +818,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308122+00:00"
+    "timestamp": "2026-07-10T12:14:00.479858+00:00"
   },
   {
     "fingerprint": "Oteemo::Senior DevOps Engineer::Hyderabad",
@@ -1012,7 +829,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308126+00:00"
+    "timestamp": "2026-07-10T12:14:00.479862+00:00"
   },
   {
     "fingerprint": "MyComplianceOffice::DevOps Architect::Hyderabad",
@@ -1023,7 +840,7 @@
     "score": 0,
     "reasoning": "Requires 15+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308130+00:00"
+    "timestamp": "2026-07-10T12:14:00.479865+00:00"
   },
   {
     "fingerprint": "Zenalyst::DevOps Engineer::Bangalore",
@@ -1034,7 +851,7 @@
     "score": 0,
     "reasoning": "Requires 3+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308134+00:00"
+    "timestamp": "2026-07-10T12:14:00.479868+00:00"
   },
   {
     "fingerprint": "VBeyond Corporation::Azure DevOps Engineer/Senior Azure DevOps Engineer::Remote, Anywhere in India/Multiple Locations",
@@ -1045,7 +862,7 @@
     "score": 0,
     "reasoning": "Requires 13+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308138+00:00"
+    "timestamp": "2026-07-10T12:14:00.479873+00:00"
   },
   {
     "fingerprint": "Avigna AI::DevOps Lead::Pune",
@@ -1056,7 +873,7 @@
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308142+00:00"
+    "timestamp": "2026-07-10T12:14:00.479876+00:00"
   },
   {
     "fingerprint": "HGS::DevOps Engineer::Bangalore",
@@ -1067,61 +884,39 @@
     "score": 0,
     "reasoning": "Requires 8+ years experience",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308146+00:00"
-  },
-  {
-    "fingerprint": "HP::Devops Lead::Bangalore, Karnataka",
-    "title": "Devops Lead",
-    "company": "HP",
-    "url": "https://www.adzuna.in/land/ad/5785771098?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=66A85F580440C12983021F8D631FB58FF0A0F0B9",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308150+00:00"
+    "timestamp": "2026-07-10T12:14:00.479884+00:00"
   },
   {
     "fingerprint": "Kyndryl::DevOps SME::Bangalore, Karnataka",
     "title": "DevOps SME",
     "company": "Kyndryl",
-    "url": "https://www.adzuna.in/land/ad/5790410552?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=92490FB2183666B8C905224075EA9C9028724228",
+    "url": "https://www.adzuna.in/land/ad/5790410552?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=92490FB2183666B8C905224075EA9C9028724228",
     "source": "adzuna",
     "score": 78,
     "reasoning": "Matched 1 skills (+10 AI)",
     "matched_skills": [
       "ECR"
     ],
-    "timestamp": "2026-07-10T11:48:37.308155+00:00"
+    "timestamp": "2026-07-10T12:14:00.479887+00:00"
   },
   {
     "fingerprint": "Kyndryl::DevOps Engineer::Bangalore, Karnataka",
     "title": "DevOps Engineer",
     "company": "Kyndryl",
-    "url": "https://www.adzuna.in/land/ad/5790410525?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=4DBDC52679B075F83637247834F9E7C9D0B27E1D",
+    "url": "https://www.adzuna.in/land/ad/5790410525?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=4DBDC52679B075F83637247834F9E7C9D0B27E1D",
     "source": "adzuna",
     "score": 78,
     "reasoning": "Matched 1 skills (+10 AI)",
     "matched_skills": [
       "ECR"
     ],
-    "timestamp": "2026-07-10T11:48:37.308158+00:00"
-  },
-  {
-    "fingerprint": "Morningstar::Senior Devops Engineer::Mumbai, Maharashtra",
-    "title": "Senior Devops Engineer",
-    "company": "Morningstar",
-    "url": "https://www.adzuna.in/land/ad/5785772117?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=0D607DACDF015FDE4113C5AAB8288052E3021103",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308162+00:00"
+    "timestamp": "2026-07-10T12:14:00.479890+00:00"
   },
   {
     "fingerprint": "Allianz Commercial::DevOps Engineer_1917::India",
     "title": "DevOps Engineer_1917",
     "company": "Allianz Commercial",
-    "url": "https://www.adzuna.in/land/ad/5790410373?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=6E2FA83111ED3E16B5BAEA5061D42D96AB1E22B5",
+    "url": "https://www.adzuna.in/land/ad/5790410373?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=6E2FA83111ED3E16B5BAEA5061D42D96AB1E22B5",
     "source": "adzuna",
     "score": 84,
     "reasoning": "Matched 3 skills (+10 AI)",
@@ -1130,188 +925,65 @@
       "ECR",
       "Linux"
     ],
-    "timestamp": "2026-07-10T11:48:37.308167+00:00"
+    "timestamp": "2026-07-10T12:14:00.479894+00:00"
   },
   {
     "fingerprint": "Kyndryl::DevOps Engineer - SQLAutomation::Noida, Gautam Buddha Nagar",
     "title": "DevOps Engineer - SQLAutomation",
     "company": "Kyndryl",
-    "url": "https://www.adzuna.in/land/ad/5790410564?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=C2D4B028FD79B899C50F6AE1AE976BA91538AECB",
+    "url": "https://www.adzuna.in/land/ad/5790410564?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=C2D4B028FD79B899C50F6AE1AE976BA91538AECB",
     "source": "adzuna",
     "score": 68,
     "reasoning": "Matched 1 skills (+10 AI)",
     "matched_skills": [
       "ECR"
     ],
-    "timestamp": "2026-07-10T11:48:37.308171+00:00"
-  },
-  {
-    "fingerprint": "Standard Chartered Bank::Lead Devops Engineer::Bangalore, Karnataka",
-    "title": "Lead Devops Engineer",
-    "company": "Standard Chartered Bank",
-    "url": "https://www.adzuna.in/land/ad/5785772183?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=E9A553D62D55370F2607CC275B5AD0004A350AC1",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308175+00:00"
+    "timestamp": "2026-07-10T12:14:00.479897+00:00"
   },
   {
     "fingerprint": "RWS::DevOps Engineer (Azure)::Indore, Madhya Pradesh",
     "title": "DevOps Engineer (Azure)",
     "company": "RWS",
-    "url": "https://www.adzuna.in/land/ad/5790410144?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976",
+    "url": "https://www.adzuna.in/land/ad/5790410144?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=3DCCB88E3C5FA2977081BB057B6A4E8604E36976",
     "source": "adzuna",
     "score": 58,
     "reasoning": "Matched 1 skills",
     "matched_skills": [
       "ECR"
     ],
-    "timestamp": "2026-07-10T11:48:37.308179+00:00"
-  },
-  {
-    "fingerprint": "Kyndryl::DevOps / Platform Engineer::Bangalore, Karnataka",
-    "title": "DevOps / Platform Engineer",
-    "company": "Kyndryl",
-    "url": "https://www.adzuna.in/land/ad/5785772423?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=31AD54AEFE4CB036A492208FED4C7BE5ACCC6F28",
-    "source": "adzuna",
-    "score": 78,
-    "reasoning": "Matched 1 skills (+10 AI)",
-    "matched_skills": [
-      "ECR"
-    ],
-    "timestamp": "2026-07-10T11:48:37.308182+00:00"
+    "timestamp": "2026-07-10T12:14:00.479904+00:00"
   },
   {
     "fingerprint": "S&P Global::Senior Devops Engineer::India",
     "title": "Senior Devops Engineer",
     "company": "S&P Global",
-    "url": "https://www.adzuna.in/land/ad/5794154066?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=2B2A0C09BC43030D70577E99958833991DA24A47",
+    "url": "https://www.adzuna.in/land/ad/5794154066?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=2B2A0C09BC43030D70577E99958833991DA24A47",
     "source": "adzuna",
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308186+00:00"
+    "timestamp": "2026-07-10T12:14:00.479907+00:00"
   },
   {
     "fingerprint": "Kyndryl::Senior DevOps Engineer::Chennai, Tamil Nadu",
     "title": "Senior DevOps Engineer",
     "company": "Kyndryl",
-    "url": "https://www.adzuna.in/land/ad/5790410189?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=2D93AE8410F2747925D37680ED7824B0232C4C39",
+    "url": "https://www.adzuna.in/land/ad/5790410189?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=2D93AE8410F2747925D37680ED7824B0232C4C39",
     "source": "adzuna",
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308190+00:00"
-  },
-  {
-    "fingerprint": "Allianz Commercial::Senior DevOps Lead_1917::India",
-    "title": "Senior DevOps Lead_1917",
-    "company": "Allianz Commercial",
-    "url": "https://www.adzuna.in/land/ad/5785771593?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=D1B20704A0264963057402CC31F2056562917D81",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308194+00:00"
-  },
-  {
-    "fingerprint": "Allianz Commercial::Technical Lead/AWS Devops_2442::Pune, Maharashtra",
-    "title": "Technical Lead/AWS Devops_2442",
-    "company": "Allianz Commercial",
-    "url": "https://www.adzuna.in/land/ad/5785771473?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=FF77FF71E2F3B50DF7DA3DA74662932188F60039",
-    "source": "adzuna",
-    "score": 74,
-    "reasoning": "Matched 3 skills",
-    "matched_skills": [
-      "AWS",
-      "RDS",
-      "ECR"
-    ],
-    "timestamp": "2026-07-10T11:48:37.308198+00:00"
-  },
-  {
-    "fingerprint": "Warner Bros. Discovery::Senior Atlassian & DevOps Operations Engineer::Hyderabad, Telangana",
-    "title": "Senior Atlassian & DevOps Operations Engineer",
-    "company": "Warner Bros. Discovery",
-    "url": "https://www.adzuna.in/land/ad/5785770932?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=528B2AFD4AB15740C141C9FE1839D1FDB5259A79",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308201+00:00"
-  },
-  {
-    "fingerprint": "Capco::DevOps / Observability Engineer (CI/CD & SecOps)::India",
-    "title": "DevOps / Observability Engineer (CI/CD & SecOps)",
-    "company": "Capco",
-    "url": "https://www.adzuna.in/land/ad/5785772438?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=75BD2A47D33804C24960FB9C967EED71CEE013F3",
-    "source": "adzuna",
-    "score": 58,
-    "reasoning": "Matched 1 skills",
-    "matched_skills": [
-      "ECR"
-    ],
-    "timestamp": "2026-07-10T11:48:37.308205+00:00"
-  },
-  {
-    "fingerprint": "Deutsche Bank::DevOps Automation Engineer with Google Cloud Exposure::Pune, Maharashtra",
-    "title": "DevOps Automation Engineer with Google Cloud Exposure",
-    "company": "Deutsche Bank",
-    "url": "https://www.adzuna.in/land/ad/5785772802?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=808BD3A0ACCA721328CA78FB0C7AD64F3FA01960",
-    "source": "adzuna",
-    "score": 68,
-    "reasoning": "Matched 1 skills (+10 AI)",
-    "matched_skills": [
-      "ECR"
-    ],
-    "timestamp": "2026-07-10T11:48:37.308209+00:00"
-  },
-  {
-    "fingerprint": "Allianz Commercial::Lead-IT & Information Security(DevOps&Communication)_2832::Pune, Maharashtra",
-    "title": "Lead-IT & Information Security(DevOps&Communication)_2832",
-    "company": "Allianz Commercial",
-    "url": "https://www.adzuna.in/land/ad/5785771884?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=AEF8BD5AB98C52F8C437AF3B3E18AA42FFD10021",
-    "source": "adzuna",
-    "score": 66,
-    "reasoning": "Matched 2 skills",
-    "matched_skills": [
-      "ECR",
-      "Git"
-    ],
-    "timestamp": "2026-07-10T11:48:37.308212+00:00"
-  },
-  {
-    "fingerprint": "Danaher::Lead Software Engineer I (DevOps, Azure, SQL, Nifi/ Dagster)::Bangalore, Karnataka",
-    "title": "Lead Software Engineer I (DevOps, Azure, SQL, Nifi/ Dagster)",
-    "company": "Danaher",
-    "url": "https://www.adzuna.in/land/ad/5785770864?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=6A0264E254820F7B81B83031216DF967F415B3B5",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308216+00:00"
+    "timestamp": "2026-07-10T12:14:00.479911+00:00"
   },
   {
     "fingerprint": "Cornerstone OnDemand::Senior Manager, IT Shared Services::Hyderabad, Telangana",
     "title": "Senior Manager, IT Shared Services",
     "company": "Cornerstone OnDemand",
-    "url": "https://www.adzuna.in/land/ad/5790410579?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=B7288FC0A1E2A60ECF3FE67D7DA1FB4A252EDE02",
+    "url": "https://www.adzuna.in/land/ad/5790410579?se=3gy51Fh88RG1cqTmEaCebw&utm_medium=api&utm_source=2a655099&v=B7288FC0A1E2A60ECF3FE67D7DA1FB4A252EDE02",
     "source": "adzuna",
     "score": 0,
     "reasoning": "Senior-level title",
     "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308220+00:00"
-  },
-  {
-    "fingerprint": "MSCI::Senior Platform Engineer::Mumbai, Maharashtra",
-    "title": "Senior Platform Engineer",
-    "company": "MSCI",
-    "url": "https://www.adzuna.in/land/ad/5785770881?se=5MzXSFV88RGVk5hlZifL9g&utm_medium=api&utm_source=2a655099&v=DE327DAD4A5DB36D9698865C00E36A5D9AEFD690",
-    "source": "adzuna",
-    "score": 0,
-    "reasoning": "Senior-level title",
-    "matched_skills": [],
-    "timestamp": "2026-07-10T11:48:37.308223+00:00"
+    "timestamp": "2026-07-10T12:14:00.479918+00:00"
   }
 ]
