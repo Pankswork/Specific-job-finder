@@ -52,24 +52,28 @@ class JobsoraScraper(BaseScraper):
 
                 soup = BeautifulSoup(resp.text, "html.parser")
                 for card in soup.select(".js-listing-item"):
-                    title_el = card.select_one('[class*="title"], h2, h3, .c-job-item__title')
-                    company_el = card.select_one('[class*="company"], .c-job-item__company')
-                    location_el = card.select_one('[class*="location"], .c-job-item__location')
-                    salary_el = card.select_one('[class*="salary"]')
-                    link_el = card.select_one("a[href*='/job-']")
-
+                    title_el = card.select_one(".c-job-item__title a, .c-job-item__title")
                     title = title_el.get_text(strip=True) if title_el else ""
                     if not title or not _is_relevant(title):
                         continue
 
+                    info_items = card.select(".c-job-item__info-item")
+                    company = info_items[0].get_text(strip=True) if info_items else "Unknown"
+                    loc = info_items[1].get_text(strip=True) if len(info_items) > 1 else location
+
+                    link_el = card.select_one("a[href*='/job-']") or card.select_one("a.c-job-item__title")
+                    url_link = link_el.get("href") if link_el else ""
+
+                    if not url_link:
+                        url_link = card.get("data-href", "")
+
                     jobs.append(JobPost(
                         title=title,
-                        company=company_el.get_text(strip=True) if company_el else "Unknown",
-                        location=location_el.get_text(strip=True) if location_el else location,
-                        url=link_el.get("href") if link_el else "",
+                        company=company,
+                        location=loc,
+                        url=url_link,
                         source="jobsora",
                         description="",
-                        salary=salary_el.get_text(strip=True) if salary_el else None,
                     ))
 
                     if len(jobs) >= max_jobs:
