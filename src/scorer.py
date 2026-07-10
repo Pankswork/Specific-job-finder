@@ -5,8 +5,8 @@ import requests
 from src.config import get_env_or_raise
 from src.models import JobPost, ScoredJob
 
-DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
-DEEPSEEK_MODEL = "deepseek-chat"
+LLM_URL = "https://opencode.ai/zen/go/v1/chat/completions"
+LLM_MODEL = "deepseek-v4-flash"
 
 
 def _build_scoring_prompt(job: JobPost, profile: dict) -> str:
@@ -74,7 +74,7 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
     prompt = _build_scoring_prompt(job, profile)
 
     payload = {
-        "model": DEEPSEEK_MODEL,
+        "model": LLM_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "response_format": {"type": "json_object"},
         "temperature": 0.3,
@@ -83,7 +83,7 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
 
     try:
         resp = requests.post(
-            DEEPSEEK_URL,
+            LLM_URL,
             headers={
                 "Authorization": f"Bearer {api_key}",
                 "Content-Type": "application/json",
