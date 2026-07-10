@@ -1,5 +1,8 @@
-from src.scrapers.browser import BrowserScraper
+import requests
 
+from src.models import JobPost, ScrapeResult
+from src.scrapers.base import BaseScraper
+from src.scrapers.browser import BrowserScraper
 
 TITLE_KEYWORDS = [
     "devops", "sre", "site reliability", "platform engineer",
@@ -18,44 +21,63 @@ EXCLUDE_TITLES = [
 ]
 
 
-class HiristScraper(BrowserScraper):
+class HiristScraper(BaseScraper):
     site_name = "hirist"
 
-    def build_search_url(self) -> str:
+    def scrape(self) -> ScrapeResult:
+        jobs: list[JobPost] = []
+        errors: list[str] = []
         query = self.config.get("query", "devops")
-        return f"https://www.hirist.tech/search/jobs?q={query}"
+        max_jobs = self.config.get("max_jobs", 20)
 
-    def parse_listings(self, html: str) -> list[dict]:
-        from bs4 import BeautifulSoup
-        soup = BeautifulSoup(html, "html.parser")
-        items = []
+        try:
+            resp = requests.get(
+                "https://gladiator.hirist.tech/job/search",
+                params={"query": query, "page": 0, "size": max_jobs},
+                headers={
+                    "User-Agent": "Mozilla/5.0",
+                    "Referer": "https://www.hirist.tech/",
+                    "Accept": "application/json",
+                },
+                timeout=20,
+            )
+            resp.raise_for_status()
+            data = resp.json()
 
-        for card in soup.select('[class*="job-card"], [class*="jobCard"], article, .card') or [soup]:
-            title_el = card.select_one('[class*="title"], [class*="heading"], h2, h3')
-            company_el = card.select_one('[class*="company"], [class*="org"]')
-            location_el = card.select_one('[class*="location"], [class*="loc"]')
-            link_el = card.select_one("a[href*='/jobs/'], a[href*='/job/']")
+            for item in data.get("data", []):
+                title = (item.get("jobdesignation") or "").strip()
+                company = item.get("companyData", {}).get("companyName", "Unknown")
+                locs = ", ".join(l["name"] for l in item.get("locations", [])) or "India"
+                url = (item.get("jobDetailUrl") or "").strip()
+                exp_min = item.get("min")
+                exp_max = item.get("max")
+                tags = [t["name"] for t in item.get("tags", [])]
+                description = f"Experience: {exp_min}-{exp_max} years. Skills: {', '.join(tags)}" if tags else ""
+                salary_min = item.get("minSal")
+                salary_max = item.get("maxSal")
+                salary = None
+                if salary_min or salary_max:
+                    salary = f"₹{salary_min}L - ₹{salary_max}L"
 
-            title = title_el.get_text(strip=True) if title_el else ""
-            if not title:
-                continue
+                title_lower = title.lower()
+                if not title or not url:
+                    continue
+                if any(excl in title_lower for excl in EXCLUDE_TITLES):
+                    continue
 
-            title_lower = title.lower()
-            if any(excl in title_lower for excl in EXCLUDE_TITLES):
-                continue
+                jobs.append(JobPost(
+                    title=title,
+                    company=company,
+                    location=locs,
+                    url=url,
+                    source="hirist",
+                    description=description,
+                    salary=salary,
+                ))
+        except Exception as e:
+            errors.append(f"hirist: {e}")
 
-            if not any(kw in title_lower for kw in TITLE_KEYWORDS):
-                continue
-
-            items.append({
-                "title": title,
-                "company": company_el.get_text(strip=True) if company_el else "Unknown",
-                "location": location_el.get_text(strip=True) if location_el else "India",
-                "url": link_el.get("href") if link_el else "",
-                "description": "",
-            })
-
-        return items
+        return ScrapeResult(source="hirist", jobs=jobs, errors=errors)
 
 
 class AmbitionBoxScraper(BrowserScraper):
