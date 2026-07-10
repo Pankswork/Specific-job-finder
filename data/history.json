@@ -1196,5 +1196,150 @@
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
     "timestamp": "2026-07-10T12:26:44.411868+00:00"
+  },
+  {
+    "fingerprint": "FINVASIA::DevOps Engineer::Mohali district, IndiaActively Hiring7 hours ago",
+    "title": "DevOps Engineer",
+    "company": "FINVASIA",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-finvasia-4437974020?position=1&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=H8jf9DJ3sNovBz63gp04HQ%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Requires 13+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759280+00:00"
+  },
+  {
+    "fingerprint": "RoboMQ::DevOps Engineer::Jaipur, Rajasthan, IndiaActively Hiring4 days ago",
+    "title": "DevOps Engineer",
+    "company": "RoboMQ",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-robomq-4437170445?position=2&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=lXyQlELJcIrXNQOsaPUyCA%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759302+00:00"
+  },
+  {
+    "fingerprint": "Accenture in India::DevOps Engineer::Chennai, Tamil Nadu, IndiaActively Hiring2 days ago",
+    "title": "DevOps Engineer",
+    "company": "Accenture in India",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-accenture-in-india-4437853177?position=4&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=Lj4ZhYXc8bo1iwwc4xtI5g%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Requires 15+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759307+00:00"
+  },
+  {
+    "fingerprint": "BOMBAYDC::DevOps Engineer- Immediate joiners preferred::Mumbai, Maharashtra, IndiaActively Hiring1 day ago",
+    "title": "DevOps Engineer- Immediate joiners preferred",
+    "company": "BOMBAYDC",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-immediate-joiners-preferred-at-bombaydc-4438610172?position=6&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=g0XL5XgCFmGC5xcUJsTT7w%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Requires 8+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759312+00:00"
+  },
+  {
+    "fingerprint": "Accenture in India::Site Reliability Engineer Specialist::Kochi, Kerala, IndiaActively Hiring6 days ago",
+    "title": "Site Reliability Engineer Specialist",
+    "company": "Accenture in India",
+    "url": "https://in.linkedin.com/jobs/view/site-reliability-engineer-specialist-at-accenture-in-india-4433193824?position=7&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=qMM1mapK3ltWkz%2F6vkwtyQ%3D%3D",
+    "source": "linkedin",
+    "score": 100,
+    "reasoning": "Matched 6 skills (+10 AI)",
+    "matched_skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "Linux"
+    ],
+    "timestamp": "2026-07-10T12:42:08.759316+00:00"
+  },
+  {
+    "fingerprint": "Sia::DevOps Engineer::Mumbai, Maharashtra, IndiaActively Hiring2 days ago",
+    "title": "DevOps Engineer",
+    "company": "Sia",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-sia-4438186074?position=8&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=C5mLVapm0YpACOMwZ1wSKw%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Requires 4+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759321+00:00"
+  },
+  {
+    "fingerprint": "BNP Paribas::DevOps Engineer::Mumbai Metropolitan RegionActively Hiring6 days ago",
+    "title": "DevOps Engineer",
+    "company": "BNP Paribas",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-bnp-paribas-4427973517?position=10&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=trTK0CSGFhaB%2Fysig0iX6w%3D%3D",
+    "source": "linkedin",
+    "score": 100,
+    "reasoning": "Matched 5 skills (+10 AI)",
+    "matched_skills": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Git"
+    ],
+    "timestamp": "2026-07-10T12:42:08.759324+00:00"
+  },
+  {
+    "fingerprint": "Collinson Group::DevOps Engineer::Mumbai, Maharashtra, IndiaActively Hiring2 days ago",
+    "title": "DevOps Engineer",
+    "company": "Collinson Group",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-collinson-group-4434853119?position=18&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=hpXngxhCJ2osA2VXnA62TQ%3D%3D",
+    "source": "linkedin",
+    "score": 50,
+    "reasoning": "Matched 0 skills",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759328+00:00"
+  },
+  {
+    "fingerprint": "Setoo::DevOps Engineer::Pune City, Maharashtra, India1 hour ago",
+    "title": "DevOps Engineer",
+    "company": "Setoo",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-setoo-4439060051?position=19&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=%2BxUEcAomKPEkOJjsG3z87w%3D%3D",
+    "source": "linkedin",
+    "score": 50,
+    "reasoning": "Matched 0 skills",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759331+00:00"
+  },
+  {
+    "fingerprint": "Worldline::Cloud DevOps::Chennai, Tamil Nadu, IndiaActively Hiring3 days ago",
+    "title": "Cloud DevOps",
+    "company": "Worldline",
+    "url": "https://in.linkedin.com/jobs/view/cloud-devops-at-worldline-4418667846?position=23&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=VOwWxYwlXs%2FbFSU2CVWxIg%3D%3D",
+    "source": "linkedin",
+    "score": 50,
+    "reasoning": "Matched 0 skills",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759334+00:00"
+  },
+  {
+    "fingerprint": "Zuora::Dev. Ops Engineer::Chennai, Tamil Nadu, IndiaActively Hiring3 hours ago",
+    "title": "Dev. Ops Engineer",
+    "company": "Zuora",
+    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-zuora-4419864267?position=26&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=g3iOlp652SoATfIWNLiV6w%3D%3D",
+    "source": "linkedin",
+    "score": 50,
+    "reasoning": "Matched 0 skills",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759338+00:00"
+  },
+  {
+    "fingerprint": "Digital Aptech::Dev Ops Engineer::Kolkata, West Bengal, IndiaActively Hiring1 day ago",
+    "title": "Dev Ops Engineer",
+    "company": "Digital Aptech",
+    "url": "https://in.linkedin.com/jobs/view/dev-ops-engineer-at-digital-aptech-4437066665?position=27&pageNum=0&refId=FcSzxRokDUEhnI5ob4xJyA%3D%3D&trackingId=esMvrkJMFFMg1DVx49tdfQ%3D%3D",
+    "source": "linkedin",
+    "score": 50,
+    "reasoning": "Matched 0 skills",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T12:42:08.759341+00:00"
   }
 ]
