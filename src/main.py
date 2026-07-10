@@ -42,18 +42,13 @@ def main():
     new_jobs = filter_new_jobs(all_jobs)
     print(f"New (unseen) jobs: {len(new_jobs)}")
 
-    max_score = scoring_settings.get("max_jobs_per_run", 25)
-    if len(new_jobs) > max_score:
-        print(f"Limiting to {max_score} jobs to avoid API rate limits ({len(new_jobs)} found)")
-        new_jobs = new_jobs[:max_score]
-
     if not new_jobs:
         print("No new jobs to score.")
         summary = RunSummary(total_found=total_found, new_jobs=0, scored=0, notified=0, errors=errors)
         send_notification(summary)
         sys.exit(0)
 
-    print(f"\nScoring {len(new_jobs)} jobs with DeepSeek...")
+    print(f"\nScoring {len(new_jobs)} jobs...")
     scored = score_jobs(new_jobs, profile)
     record_scored(scored)
 

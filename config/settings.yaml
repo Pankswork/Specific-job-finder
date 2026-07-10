@@ -6,7 +6,6 @@ scoring:
   threshold_notify: 60
   threshold_strong: 85
   min_description_length: 100
-  max_jobs_per_run: 20
 
 scheduler:
   interval_hours: 2
@@ -24,12 +23,13 @@ scrapers:
     max_jobs: 15
 
   linkedin:
-    enabled: true
+    enabled: false
     query: "DevOps Engineer"
     location: "India"
+    # requires playwright + system deps, disabled for CI
 
   hirist:
-    enabled: true
+    enabled: false
     query: "devops"
 
   ambitionbox:
@@ -44,7 +44,7 @@ scrapers:
   jobsora:
     enabled: true
     query: "devops"
-    location: "Bangalore"
+    location: "India"
     max_jobs: 20
 
   jooble:
@@ -58,7 +58,7 @@ scrapers:
     location: "bangalore"
 
   foundit:
-    enabled: true
+    enabled: false
     query: "devops"
     location: "bangalore"
 

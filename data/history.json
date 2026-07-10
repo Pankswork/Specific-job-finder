@@ -1,1 +1,184 @@
-[]
+[
+  {
+    "fingerprint": "Unknown::Qualifyze: Senior DevOps Engineer::Remote",
+    "title": "Qualifyze: Senior DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/qualifyze-senior-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537164+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Bright Vision Technologies: Site Reliability Engineer (SRE)::Remote",
+    "title": "Bright Vision Technologies: Site Reliability Engineer (SRE)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/bright-vision-technologies-site-reliability-engineer-sre",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537193+00:00"
+  },
+  {
+    "fingerprint": "Midnight Foundation::IO Global: DevOps Engineer - Midnight Foundation::Remote",
+    "title": "IO Global: DevOps Engineer - Midnight Foundation",
+    "company": "Midnight Foundation",
+    "url": "https://weworkremotely.com/remote-jobs/io-global-devops-engineer-midnight-foundation",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537199+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Agilent Technologies: DevOps & Platform Engineer (AWS / CI/CD)::Remote",
+    "title": "Agilent Technologies: DevOps & Platform Engineer (AWS / CI/CD)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/agilent-technologies-devops-platform-engineer-aws-ci-cd",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 8+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537205+00:00"
+  },
+  {
+    "fingerprint": "Senior or Lead  (Remote Eligible)::Southwest Power Pool: DevOps SRE - Senior or Lead  (Remote Eligible)::Remote",
+    "title": "Southwest Power Pool: DevOps SRE - Senior or Lead  (Remote Eligible)",
+    "company": "Senior or Lead  (Remote Eligible)",
+    "url": "https://weworkremotely.com/remote-jobs/southwest-power-pool-devops-sre-senior-or-lead-remote-eligible",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537211+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Aura: DevOps Engineer::Remote",
+    "title": "Aura: DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/aura-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537216+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Philips Deutschland: 581321 DevOps Engineer Testing (all genders)::Remote",
+    "title": "Philips Deutschland: 581321 DevOps Engineer Testing (all genders)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/philips-deutschland-581321-devops-engineer-testing-all-genders",
+    "source": "weworkremotely",
+    "score": 81,
+    "reasoning": "Matched 2 skills (+10 AI)",
+    "matched_skills": [
+      "Python",
+      "Git"
+    ],
+    "timestamp": "2026-07-10T11:04:33.537222+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Air Apps: DevOps Engineer Mobile::Remote",
+    "title": "Air Apps: DevOps Engineer Mobile",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/air-apps-devops-engineer-mobile",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537226+00:00"
+  },
+  {
+    "fingerprint": "Unknown::AssureSoft: DevOps Engineer::Remote",
+    "title": "AssureSoft: DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/assuresoft-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 15+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537231+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Bruker Corporation: Working Student (m/f/d) DevOps \u2013 Software Development::Remote",
+    "title": "Bruker Corporation: Working Student (m/f/d) DevOps \u2013 Software Development",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/bruker-corporation-working-student-m-f-d-devops-software-development",
+    "source": "weworkremotely",
+    "score": 73,
+    "reasoning": "Matched 1 skills (+10 AI)",
+    "matched_skills": [
+      "Git"
+    ],
+    "timestamp": "2026-07-10T11:04:33.537238+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Deutsche Telekom IT Solutions Slovakia: DevOps Engineer  REF1752R (m/f/d)::Remote",
+    "title": "Deutsche Telekom IT Solutions Slovakia: DevOps Engineer  REF1752R (m/f/d)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/deutsche-telekom-it-solutions-slovakia-devops-engineer-ref1752r-m-f-d",
+    "source": "weworkremotely",
+    "score": 100,
+    "reasoning": "Matched 11 skills (+10 AI)",
+    "matched_skills": [
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "Jenkins",
+      "Prometheus",
+      "Grafana",
+      "Python",
+      "Bash",
+      "Linux",
+      "Git"
+    ],
+    "timestamp": "2026-07-10T11:04:33.537243+00:00"
+  },
+  {
+    "fingerprint": "Infrastructure Systems::Golden 1 Credit Union: IT - Infrastructure Systems - DevOps Engineer II (Remote in CA only)::Remote",
+    "title": "Golden 1 Credit Union: IT - Infrastructure Systems - DevOps Engineer II (Remote in CA only)",
+    "company": "Infrastructure Systems",
+    "url": "https://weworkremotely.com/remote-jobs/golden-1-credit-union-it-infrastructure-systems-devops-engineer-ii-remote-in-ca",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 4+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537248+00:00"
+  },
+  {
+    "fingerprint": "(REMOTE)::Charles River: Senior InfoSec Engineer (SecDevOps) - (REMOTE)::Remote",
+    "title": "Charles River: Senior InfoSec Engineer (SecDevOps) - (REMOTE)",
+    "company": "(REMOTE)",
+    "url": "https://weworkremotely.com/remote-jobs/charles-river-senior-infosec-engineer-secdevops-remote",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537253+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Revvity: Principal DevOps Engineer \u2013 Build, Release and Cloud Automation::Remote",
+    "title": "Revvity: Principal DevOps Engineer \u2013 Build, Release and Cloud Automation",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/revvity-principal-devops-engineer-build-release-and-cloud-automation",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537257+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Runware: Staff DevOps Engineer::Remote",
+    "title": "Runware: Staff DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/runware-staff-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T11:04:33.537261+00:00"
+  }
+]

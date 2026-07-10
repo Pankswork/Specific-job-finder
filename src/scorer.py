@@ -1,136 +1,54 @@
-import json
-import time
+import re
 
-import requests
-
-from src.config import get_env_or_raise
 from src.models import JobPost, ScoredJob
 
-LLM_URL = "https://opencode.ai/zen/v1/chat/completions"
-LLM_MODEL = "deepseek-v4-flash-free"
+
+def _match_skills(description: str, profile_skills: list[str]) -> tuple[list[str], list[str]]:
+    desc_lower = (description or "").lower()
+    matched = [s for s in profile_skills if s.lower() in desc_lower]
+    missing = [s for s in profile_skills if s.lower() not in desc_lower]
+    return matched, missing[:5]
 
 
-def _build_scoring_prompt(job: JobPost, profile: dict) -> str:
-    skills_list = ", ".join(profile["skills"])
-    target_roles = ", ".join(profile["target_roles"])
-    locations = ", ".join(profile["preferred_locations"])
-    internship_pay = profile.get("internship_monthly_pay_inr", 25000)
-    relo_threshold = profile.get("relocation_salary_threshold_inr", 35000)
-    preferred_city = profile.get("preferred_city", "Bangalore")
-    exp_max = profile.get("experience_max_years", 2)
-    auth = ", ".join(profile["work_authorization"])
+def _score_job(job: JobPost, profile: dict) -> tuple[int, str, list[str], list[str]]:
+    title_lower = job.title.lower()
+    desc_lower = (job.description or "").lower()
+    title_words = set(title_lower.split())
+    matched_skills, missing_skills = _match_skills(job.description, profile["skills"])
 
-    return f"""You are a job-fit evaluator. Return ONLY valid JSON. No markdown, no code fences.
+    senior_keywords = {"senior", "lead", "staff", "principal", "sr."}
+    if senior_keywords & title_words:
+        return 0, "Senior-level title", [], []
 
-PROFILE:
-- Name: {profile['name']}
-- Summary: {profile['summary']}
-- Experience: entry-level ({profile['experience_years']} yr, max {exp_max} yrs)
-- Target roles: {target_roles}
-- Skills: {skills_list}
-- Preferred locations: {locations}
-- Preferred city: {preferred_city}
-- Work authorization: {auth}
-- Internship monthly pay: ₹{internship_pay}
-- Relocation threshold: ₹{relo_threshold}+ monthly
+    exp_patterns = [r"(\d+)\+?\s*(?:years?|yrs?)", r"(\d+)\+?\s*y[ea]r"]
+    matches = []
+    for p in exp_patterns:
+        matches.extend(re.findall(p, desc_lower))
+    if matches:
+        max_exp = max(int(m) for m in matches if m)
+        if max_exp >= 3:
+            return 0, f"Requires {max_exp}+ years experience", [], []
 
-JOB:
-- Title: {job.title}
-- Company: {job.company}
-- Location: {job.location}
-- Salary info in description: {(job.description[:200] if job.description else 'N/A')}...
-- Full description: {job.description[:1800]}
+    if "unpaid" in title_lower or "unpaid" in desc_lower:
+        return 0, "Unpaid position", [], []
 
-RULES:
+    ai_bonus = 10 if any(w in desc_lower for w in ["ai", "ml", "llm", "machine learning", "artificial intelligence"]) else 0
 
-1. JUNIOR-FRIENDLY — Do NOT penalize for "senior" in the description text. Only check the JOB TITLE: if the title explicitly says "Senior", "Lead", "Staff", "Principal" → score 0, reasoning "Senior-level title"
+    base = 50 + len(matched_skills) * 8 + ai_bonus
 
-2. EXPERIENCE — Search the description for phrases like "X+ years experience" or "requires X years". If it clearly asks for 3+ years → score 0. If unclear or only 1-2 years mentioned → ignore this rule.
+    loc_lower = (job.location or "").lower()
+    preferred = profile.get("preferred_city", "Bangalore").lower()
+    if preferred in loc_lower:
+        base += 10
+    if "remote" in loc_lower:
+        base += 5
 
-3. UNPAID — If "unpaid" appears in title or description → score 0
-
-4. INTERNSHIP — If title has "intern" or "trainee" and NOT remote with no salary info → score 0
-
-5. LOCATION — Remote jobs are always OK. Bangalore jobs are always OK. Other cities only OK if salary ≥₹{relo_threshold}/month is mentioned.
-
-6. AI BONUS — +10 if job mentions AI/ML/LLM (candidate has AI projects)
-
-SCORING (0-100):
-Score based on: role match, skill overlap, experience fit. Be GENEROUS for entry-level.
-- 0 = hard rule triggered
-- 50-69 = decent match with some gaps
-- 70-84 = good fit
-- 85+ = strong fit with AI bonus
-
-Return JSON:
-{{"score": <0-100>, "reasoning": "<why this score>", "matched_skills": ["skill1"], "missing_skills": ["skill2"]}}
-
-matched_skills = profile skills mentioned in job.
-missing_skills = relevant profile skills NOT mentioned. Max 5.
-If score=0, matched_skills and missing_skills are empty []."""
-
-
-def _call_llm(prompt: str, api_key: str) -> str | None:
-    payload = {
-        "model": LLM_MODEL,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.3,
-        "max_tokens": 1024,
-    }
-    try:
-        resp = requests.post(
-            LLM_URL,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-            },
-            json=payload,
-            timeout=60,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        content = data["choices"][0]["message"]["content"].strip()
-        if not content:
-            return None
-        content = content.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-        return content
-    except Exception:
-        return None
-
-
-def score_job(job: JobPost, profile: dict) -> ScoredJob:
-    api_key = get_env_or_raise("DEEPSEEK_API_KEY")
-    prompt = _build_scoring_prompt(job, profile)
-
-    for attempt in range(2):
-        content = _call_llm(prompt, api_key)
-        if content:
-            try:
-                result = json.loads(content)
-                return ScoredJob(
-                    job=job,
-                    score=result.get("score", 50),
-                    reasoning=result.get("reasoning", ""),
-                    matched_skills=result.get("matched_skills", []),
-                    missing_skills=result.get("missing_skills", []),
-                )
-            except json.JSONDecodeError:
-                pass
-        if attempt == 0:
-            time.sleep(3)
-
-    return ScoredJob(
-        job=job,
-        score=0,
-        reasoning="Scoring failed after retry",
-        missing_skills=[],
-    )
+    score = min(base, 100)
+    reasoning = f"Matched {len(matched_skills)} skills" + (f" (+{ai_bonus} AI)" if ai_bonus else "")
+    return score, reasoning, matched_skills, missing_skills
 
 
 def score_jobs(jobs: list[JobPost], profile: dict) -> list[ScoredJob]:
-    results: list[ScoredJob] = []
-    for i, job in enumerate(jobs):
-        if i > 0:
-            time.sleep(3)
-        results.append(score_job(job, profile))
-    return results
+    return [ScoredJob(job=job, score=s, reasoning=r, matched_skills=m, missing_skills=miss)
+            for job in jobs
+            for s, r, m, miss in [_score_job(job, profile)]]
