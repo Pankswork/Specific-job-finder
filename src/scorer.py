@@ -76,9 +76,8 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
     payload = {
         "model": LLM_MODEL,
         "messages": [{"role": "user", "content": prompt}],
-        "response_format": {"type": "json_object"},
         "temperature": 0.3,
-        "max_tokens": 300,
+        "max_tokens": 400,
     }
 
     try:
@@ -93,7 +92,8 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
         )
         resp.raise_for_status()
         data = resp.json()
-        content = data["choices"][0]["message"]["content"]
+        content = data["choices"][0]["message"]["content"].strip()
+        content = content.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
         result = json.loads(content)
         return ScoredJob(
             job=job,
