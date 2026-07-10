@@ -1769,5 +1769,71 @@
     "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://api.deepseek.com/chat/completions",
     "matched_skills": [],
     "timestamp": "2026-07-10T08:33:44.730063+00:00"
+  },
+  {
+    "fingerprint": "NEC Software Solutions (India)::Devops Engineer::Mumbai Metropolitan RegionBe an early applicant19 minutes ago",
+    "title": "Devops Engineer",
+    "company": "NEC Software Solutions (India)",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-nec-software-solutions-india-4439020476?position=13&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=edEsaLUKPLGMqX6M%2BRyo3g%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635429+00:00"
+  },
+  {
+    "fingerprint": "AVP VIGILANT TECHNOLOGY PVT LTD::DevOps Engineer::Mumbai Metropolitan Region22 hours ago",
+    "title": "DevOps Engineer",
+    "company": "AVP VIGILANT TECHNOLOGY PVT LTD",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437384699?position=23&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=P1APoWnN%2BCTDMs4%2FovWAQg%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635447+00:00"
+  },
+  {
+    "fingerprint": "The Hartford India::Devops Platform Engineer::Hyderabad, Telangana, India1 week ago",
+    "title": "Devops Platform Engineer",
+    "company": "The Hartford India",
+    "url": "https://in.linkedin.com/jobs/view/devops-platform-engineer-at-the-hartford-india-4435417928?position=29&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=njSTxkhgf0GCrVz75HHWWA%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635451+00:00"
+  },
+  {
+    "fingerprint": "JAGGAER::Cloud Engineer::Greater Hyderabad AreaActively Hiring14 hours ago",
+    "title": "Cloud Engineer",
+    "company": "JAGGAER",
+    "url": "https://in.linkedin.com/jobs/view/cloud-engineer-at-jaggaer-4410797051?position=34&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=KsD2AtoYPaWodjxMBg7yTg%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635454+00:00"
+  },
+  {
+    "fingerprint": "AVP VIGILANT TECHNOLOGY PVT LTD::DevOps Engineer::Bengaluru, Karnataka, India22 hours ago",
+    "title": "DevOps Engineer",
+    "company": "AVP VIGILANT TECHNOLOGY PVT LTD",
+    "url": "https://in.linkedin.com/jobs/view/devops-engineer-at-avp-vigilant-technology-pvt-ltd-4437390523?position=51&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=ph24fKyNWs8B23GsLLzYZQ%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635457+00:00"
+  },
+  {
+    "fingerprint": "symplr::CloudOps Engineer::Bengaluru, Karnataka, India19 hours ago",
+    "title": "CloudOps Engineer",
+    "company": "symplr",
+    "url": "https://in.linkedin.com/jobs/view/cloudops-engineer-at-symplr-4408989592?position=60&pageNum=0&refId=Iqs%2FkJanJtDxWRhtuVUphA%3D%3D&trackingId=8BDH1ib%2FxVyGKFepN1Uu4Q%3D%3D",
+    "source": "linkedin",
+    "score": 0,
+    "reasoning": "Scoring failed: 401 Client Error: Unauthorized for url: https://opencode.ai/zen/go/v1/chat/completions",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T08:38:37.635459+00:00"
   }
 ]
