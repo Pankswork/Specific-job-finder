@@ -57,6 +57,11 @@ scrapers:
     query: "devops"
     location: "bangalore"
 
+  foundit:
+    enabled: false
+    query: "devops"
+    location: "bangalore"
+
 notifications:
   telegram:
     enabled: true

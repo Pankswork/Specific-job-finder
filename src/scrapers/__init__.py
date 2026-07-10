@@ -7,6 +7,7 @@ from src.scrapers.indian_jobs import HiristScraper, AmbitionBoxScraper, BuiltInS
 from src.scrapers.jobsora import JobsoraScraper
 from src.scrapers.jooble import JoobleScraper
 from src.scrapers.jobslooker import JobslookerScraper
+from src.scrapers.foundit import FounditScraper
 
 
 def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
@@ -42,5 +43,8 @@ def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
 
     if scraper_config.get("jobslooker", {}).get("enabled", False):
         scrapers.append(JobslookerScraper(scraper_config["jobslooker"]))
+
+    if scraper_config.get("foundit", {}).get("enabled", False):
+        scrapers.append(FounditScraper(scraper_config["foundit"]))
 
     return scrapers
