@@ -117,7 +117,7 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
             except json.JSONDecodeError:
                 pass
         if attempt == 0:
-            time.sleep(1.5)
+            time.sleep(3)
 
     return ScoredJob(
         job=job,
@@ -131,6 +131,6 @@ def score_jobs(jobs: list[JobPost], profile: dict) -> list[ScoredJob]:
     results: list[ScoredJob] = []
     for i, job in enumerate(jobs):
         if i > 0:
-            time.sleep(1)
+            time.sleep(3)
         results.append(score_job(job, profile))
     return results
