@@ -41,6 +41,17 @@ scrapers:
     enabled: false
     query: "devops-engineer"
 
+  jobsora:
+    enabled: true
+    query: "devops"
+    location: "Bangalore"
+    max_jobs: 20
+
+  jooble:
+    enabled: false
+    query: "devops"
+    location: "India"
+
 notifications:
   telegram:
     enabled: true

@@ -4,6 +4,8 @@ from src.scrapers.remoteok import RemoteOKScraper
 from src.scrapers.rss import WeWorkRemotelyScraper
 from src.scrapers.linkedin import LinkedInScraper
 from src.scrapers.indian_jobs import HiristScraper, AmbitionBoxScraper, BuiltInScraper
+from src.scrapers.jobsora import JobsoraScraper
+from src.scrapers.jooble import JoobleScraper
 
 
 def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
@@ -30,5 +32,11 @@ def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
 
     if scraper_config.get("builtin", {}).get("enabled", False):
         scrapers.append(BuiltInScraper(scraper_config["builtin"]))
+
+    if scraper_config.get("jobsora", {}).get("enabled", False):
+        scrapers.append(JobsoraScraper(scraper_config["jobsora"]))
+
+    if scraper_config.get("jooble", {}).get("enabled", False):
+        scrapers.append(JoobleScraper(scraper_config["jooble"]))
 
     return scrapers
