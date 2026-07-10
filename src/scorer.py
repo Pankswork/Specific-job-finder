@@ -5,8 +5,8 @@ import requests
 from src.config import get_env_or_raise
 from src.models import JobPost, ScoredJob
 
-LLM_URL = "https://opencode.ai/zen/go/v1/chat/completions"
-LLM_MODEL = "deepseek-v4-flash"
+LLM_URL = "https://opencode.ai/zen/v1/chat/completions"
+LLM_MODEL = "deepseek-v4-flash-free"
 
 
 def _build_scoring_prompt(job: JobPost, profile: dict) -> str:
