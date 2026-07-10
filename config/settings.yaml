@@ -28,6 +28,10 @@ scrapers:
     query: "DevOps"
     location: "India"
 
+  linkedin_posts:
+    enabled: true
+    max_posts: 20
+
   hirist:
     enabled: true
     query: "devops"

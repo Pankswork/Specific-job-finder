@@ -1,4 +1,3 @@
-import re
 import time
 
 from src.models import JobPost, ScrapeResult
@@ -17,11 +16,11 @@ class LinkedInScraper(BrowserScraper):
     max_description_jobs = 20
 
     def build_search_url(self) -> str:
-        query = self.config.get("query", "DevOps Engineer")
+        query = self.config.get("query", "DevOps")
         location = self.config.get("location", "India")
         q = query.replace(" ", "%20")
         l = location.replace(" ", "%20")
-        return f"https://www.linkedin.com/jobs/search/?keywords={q}&location={l}&f_TPR=r604800&f_E=1,2,3&position=1&pageNum=0"
+        return f"https://www.linkedin.com/jobs/search/?keywords={q}&location={l}&f_TPR=r172800&f_E=1,2,3&sortBy=DD&position=1&pageNum=0"
 
     def _extract_description(self, url: str, page) -> str:
         if not url or "/jobs/view" not in url:
