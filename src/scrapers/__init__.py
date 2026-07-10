@@ -8,6 +8,7 @@ from src.scrapers.jobsora import JobsoraScraper
 from src.scrapers.jooble import JoobleScraper
 from src.scrapers.jobslooker import JobslookerScraper
 from src.scrapers.foundit import FounditScraper
+from src.scrapers.adzuna import AdzunaScraper
 
 
 def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
@@ -46,5 +47,8 @@ def get_enabled_scrapers(settings: dict) -> list[BaseScraper]:
 
     if scraper_config.get("foundit", {}).get("enabled", False):
         scrapers.append(FounditScraper(scraper_config["foundit"]))
+
+    if scraper_config.get("adzuna", {}).get("enabled", False):
+        scrapers.append(AdzunaScraper(scraper_config["adzuna"]))
 
     return scrapers

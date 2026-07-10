@@ -56,6 +56,13 @@ scrapers:
     query: "devops"
     location: "bangalore"
 
+  adzuna:
+    enabled: true
+    query: "devops"
+    where: "India"
+    max_jobs: 20
+    # app_id and app_key from ADZUNA_APP_ID / ADZUNA_API_KEY env vars
+
   foundit:
     enabled: true
     query: "devops"
