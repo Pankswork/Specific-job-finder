@@ -2229,5 +2229,38 @@
     "reasoning": "Matched 0 skills",
     "matched_skills": [],
     "timestamp": "2026-07-10T14:20:40.685916+00:00"
+  },
+  {
+    "fingerprint": "Finastra::Senior DevOps Engineer::Bangalore",
+    "title": "Senior DevOps Engineer",
+    "company": "Finastra",
+    "url": "https://www.hirist.tech/j/finastra-senior-devops-engineer-ai-center-of-excellence-1652245",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T19:35:55.658655+00:00"
+  },
+  {
+    "fingerprint": "Careerist Management Consultants Pvt Ltd::Lead DevOps Engineer::Bangalore, Pune",
+    "title": "Lead DevOps Engineer",
+    "company": "Careerist Management Consultants Pvt Ltd",
+    "url": "https://www.hirist.tech/j/lead-devops-engineer-cicd-pipeline-1649230",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T19:35:55.658675+00:00"
+  },
+  {
+    "fingerprint": "VALUELABS SOLUTIONS LLP::Senior Azure DevOps Engineer::Hyderabad",
+    "title": "Senior Azure DevOps Engineer",
+    "company": "VALUELABS SOLUTIONS LLP",
+    "url": "https://www.hirist.tech/j/valuelabs-senior-azure-devops-engineer-1651157",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-10T19:35:55.658681+00:00"
   }
 ]
