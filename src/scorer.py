@@ -16,16 +16,16 @@ def _score_job(job: JobPost, profile: dict) -> tuple[int, str, list[str], list[s
     title_words = set(title_lower.split())
     matched_skills, missing_skills = _match_skills(job.description, job.title, profile["skills"])
 
-    senior_keywords = {"senior", "lead", "staff", "principal", "sr."}
+    senior_keywords = {"senior", "lead", "staff", "principal", "sr.", "sme", "expert"}
     if senior_keywords & title_words:
         return 0, "Senior-level title", [], []
 
-    exp_patterns = [r"(\d+)\+?\s*(?:years?|yrs?)", r"(\d+)\+?\s*y[ea]r"]
-    matches = []
-    for p in exp_patterns:
-        matches.extend(re.findall(p, desc_lower))
-    if matches:
-        max_exp = max(int(m) for m in matches if m)
+    exp_matches = re.findall(r"(\d+)\s*(?:\+|-|to|–)\s*(\d+)\s*(?:years?|yrs?)", desc_lower)
+    exp_matches += re.findall(r"(\d+)\+?\s*(?:years?|yrs?)", desc_lower)
+    exp_matches += re.findall(r"(?:minimum|at least|min)\s*(\d+)\s*(?:years?|yrs?)", desc_lower)
+    if exp_matches:
+        nums = [int(x) for m in exp_matches for x in (m if isinstance(m, tuple) else (m,))]
+        max_exp = max(nums)
         if max_exp >= 3:
             return 0, f"Requires {max_exp}+ years experience", [], []
 
