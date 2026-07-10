@@ -20,7 +20,7 @@ class LinkedInScraper(BrowserScraper):
         location = self.config.get("location", "India")
         q = query.replace(" ", "%20")
         l = location.replace(" ", "%20")
-        return f"https://www.linkedin.com/jobs/search/?keywords={q}&location={l}&f_TPR=r172800&f_E=1,2,3&sortBy=DD&position=1&pageNum=0"
+        return f"https://www.linkedin.com/jobs/search/?keywords={q}&location={l}&f_TPR=r86400&f_E=1,2,3&sortBy=DD&position=1&pageNum=0"
 
     def _extract_description(self, url: str, page) -> str:
         if not url or "/jobs/view" not in url:
