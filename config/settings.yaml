@@ -1,0 +1,49 @@
+app:
+  name: "AI Job Agent"
+  version: "0.1.0"
+
+scoring:
+  threshold_notify: 60
+  threshold_strong: 85
+  min_description_length: 100
+
+scheduler:
+  interval_hours: 2
+  max_jobs_per_run: 50
+
+scrapers:
+  indeed:
+    enabled: true
+    queries:
+      - q: "DevOps Intern"
+        l: "India"
+      - q: "Junior DevOps Engineer"
+        l: "Remote"
+      - q: "DevSecOps"
+        l: "India"
+      - q: "DevOps Engineer"
+        l: "Bangalore"
+      - q: "Cloud Engineer"
+        l: "Bangalore"
+      - q: "Entry Level DevOps"
+        l: "India"
+    max_pages: 2
+
+  remoteok:
+    enabled: true
+    tags:
+      - devops
+      - cloud
+      - sre
+      - platform
+      - intern
+      - junior
+      - associate
+      - entry level
+
+notifications:
+  telegram:
+    enabled: true
+  summary:
+    include_skipped: false
+    max_details: 10

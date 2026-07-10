@@ -1,0 +1,40 @@
+{
+  "name": "Pankaj Kumar",
+  "email": "panks.work08@gmail.com",
+  "summary": "DevSecOps Engineer with hands-on experience in CI/CD pipelines, AWS infrastructure with Terraform, Kubernetes, Docker, and DevSecOps tools. Built AI-powered cloud cost optimization platform using LLMs and deployed AIOps log anomaly detection with ML — combining traditional DevOps with emerging AI/ML workflows.",
+  "experience_years": 0,
+  "experience_max_years": 2,
+  "internship_monthly_pay_inr": 25000,
+  "relocation_salary_threshold_inr": 35000,
+  "preferred_city": "Bangalore",
+  "target_roles": [
+    "DevOps Engineer",
+    "DevSecOps Engineer",
+    "Cloud Engineer",
+    "Site Reliability Engineer",
+    "Platform Engineer",
+    "Junior DevOps Engineer",
+    "DevOps Intern",
+    "Cloud Intern",
+    "Associate Cloud Engineer",
+    "AI DevOps Engineer"
+  ],
+  "skills": [
+    "EC2", "S3", "VPC", "IAM", "EKS", "CloudWatch",
+    "RDS", "ECR", "Lambda",
+    "Terraform",
+    "Docker", "Kubernetes", "Helm",
+    "GitHub Actions", "Jenkins", "Argo CD",
+    "Trivy", "Checkov", "SonarCloud",
+    "Prometheus", "Grafana",
+    "Python", "Bash", "Linux",
+    "PostgreSQL", "Git"
+  ],
+  "preferred_locations": ["Remote", "Bangalore", "India"],
+  "work_authorization": ["India"],
+  "salary_range": {
+    "min": 240000,
+    "max": 900000,
+    "currency": "INR"
+  }
+}
