@@ -13,33 +13,15 @@ scheduler:
 
 scrapers:
   indeed:
-    enabled: true
-    queries:
-      - q: "DevOps Intern"
-        l: "India"
-      - q: "Junior DevOps Engineer"
-        l: "Remote"
-      - q: "DevSecOps"
-        l: "India"
-      - q: "DevOps Engineer"
-        l: "Bangalore"
-      - q: "Cloud Engineer"
-        l: "Bangalore"
-      - q: "Entry Level DevOps"
-        l: "India"
-    max_pages: 2
+    enabled: false
 
   remoteok:
     enabled: true
-    tags:
-      - devops
-      - cloud
-      - sre
-      - platform
-      - intern
-      - junior
-      - associate
-      - entry level
+    max_jobs: 30
+
+  weworkremotely:
+    enabled: true
+    max_jobs: 15
 
 notifications:
   telegram:
