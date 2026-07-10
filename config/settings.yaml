@@ -52,6 +52,11 @@ scrapers:
     query: "devops"
     location: "India"
 
+  jobslooker:
+    enabled: false
+    query: "devops"
+    location: "bangalore"
+
 notifications:
   telegram:
     enabled: true
