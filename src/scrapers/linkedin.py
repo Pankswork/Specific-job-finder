@@ -35,12 +35,16 @@ class LinkedInScraper(BrowserScraper):
 
         try:
             with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
+                browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
                 context = browser.new_context(
                     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
                     viewport={"width": 1280, "height": 900},
                 )
                 page = context.new_page()
+                page.add_init_script("""Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
+Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
+window.chrome = {runtime: {}};""")
 
                 logged_in = login(page, context)
                 if not logged_in:
