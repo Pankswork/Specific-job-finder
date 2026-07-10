@@ -64,6 +64,7 @@ def main():
         tag = "🟢 STRONG" if s.score >= 90 else "🟡 GOOD" if s.score >= threshold_notify else "⚪"
         print(f"  {tag} [{s.score}/100] {s.job.title} @ {s.job.company}")
         print(f"       {s.job.url}")
+        print(f"       {s.reasoning}")
 
     summary = RunSummary(
         total_found=total_found,

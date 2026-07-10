@@ -40,37 +40,33 @@ JOB:
 - Salary info in description: {(job.description[:200] if job.description else 'N/A')}...
 - Full description: {job.description[:1800]}
 
-DECISION RULES (apply in order):
+RULES:
 
-1. EXPERIENCE — If description says "3+ years", "3 years exp", "senior", "lead", or clearly requires >{exp_max} years → score = 0, reasoning = "Requires >{exp_max} yr exp"
+1. JUNIOR-FRIENDLY — Do NOT penalize for "senior" in the description text. Only check the JOB TITLE: if the title explicitly says "Senior", "Lead", "Staff", "Principal" → score 0, reasoning "Senior-level title"
 
-2. UNPAID — If "unpaid" appears in title or description → score = 0, reasoning = "Unpaid position"
+2. EXPERIENCE — Search the description for phrases like "X+ years experience" or "requires X years". If it clearly asks for 3+ years → score 0. If unclear or only 1-2 years mentioned → ignore this rule.
 
-3. INTERNSHIP — If title contains "intern" or "trainee":
-   - If Remote → score normally below
-   - If NOT remote and no salary mentioned → score = 0, reasoning = "Internship without salary info"
-   - If salary mentioned below ₹{internship_pay}/month → score = 0
+3. UNPAID — If "unpaid" appears in title or description → score 0
 
-4. LOCATION — For non-internship, non-remote jobs:
-   - If location is {preferred_city} → OK, score normally
-   - If location is another city and salary is clearly mentioned ≥₹{relo_threshold}/month → OK (can relocate)
-   - If location is another city and salary unclear or <₹{relo_threshold} → score = 0, reasoning = "Location mismatch, salary insufficient for relocation"
+4. INTERNSHIP — If title has "intern" or "trainee" and NOT remote with no salary info → score 0
 
-5. REMOTE — If Remote → always OK, score normally below
+5. LOCATION — Remote jobs are always OK. Bangalore jobs are always OK. Other cities only OK if salary ≥₹{relo_threshold}/month is mentioned.
 
-6. AI BONUS — If job involves AI/ML/LLM/AIOps/agent/automation, add +10-15 to score. Candidate has relevant AI projects (LLM cost analyzer, AIOps anomaly detection).
+6. AI BONUS — +10 if job mentions AI/ML/LLM (candidate has AI projects)
 
 SCORING (0-100):
-- 80+ : Strong skill match, most rules satisfied
-- 50-79: Partial match, some gaps
-- <50  : Poor fit
+Score based on: role match, skill overlap, experience fit. Be GENEROUS for entry-level.
+- 0 = hard rule triggered
+- 50-69 = decent match with some gaps
+- 70-84 = good fit
+- 85+ = strong fit with AI bonus
 
-Return JSON with these exact fields:
-{{"score": <0-100>, "reasoning": "<1-2 sentences explaining the score and which rules applied>", "matched_skills": ["skill1", "skill2"], "missing_skills": ["skill3", "skill4"]}}
+Return JSON:
+{{"score": <0-100>, "reasoning": "<why this score>", "matched_skills": ["skill1"], "missing_skills": ["skill2"]}}
 
-matched_skills = skills from the profile that appear in the job title or description.
-missing_skills = skills from the profile that are relevant to the role but NOT mentioned in the job description. Include at most 5.
-If score is 0, matched_skills and missing_skills should be empty lists."""
+matched_skills = profile skills mentioned in job.
+missing_skills = relevant profile skills NOT mentioned. Max 5.
+If score=0, matched_skills and missing_skills are empty []."""
 
 
 def score_job(job: JobPost, profile: dict) -> ScoredJob:
