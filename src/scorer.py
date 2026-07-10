@@ -3,10 +3,10 @@ import re
 from src.models import JobPost, ScoredJob
 
 
-def _match_skills(description: str, profile_skills: list[str]) -> tuple[list[str], list[str]]:
-    desc_lower = (description or "").lower()
-    matched = [s for s in profile_skills if s.lower() in desc_lower]
-    missing = [s for s in profile_skills if s.lower() not in desc_lower]
+def _match_skills(description: str, title: str, profile_skills: list[str]) -> tuple[list[str], list[str]]:
+    text = f"{(description or '')} {title}".lower()
+    matched = [s for s in profile_skills if s.lower() in text]
+    missing = [s for s in profile_skills if s.lower() not in text]
     return matched, missing[:5]
 
 
@@ -14,7 +14,7 @@ def _score_job(job: JobPost, profile: dict) -> tuple[int, str, list[str], list[s
     title_lower = job.title.lower()
     desc_lower = (job.description or "").lower()
     title_words = set(title_lower.split())
-    matched_skills, missing_skills = _match_skills(job.description, profile["skills"])
+    matched_skills, missing_skills = _match_skills(job.description, job.title, profile["skills"])
 
     senior_keywords = {"senior", "lead", "staff", "principal", "sr."}
     if senior_keywords & title_words:
