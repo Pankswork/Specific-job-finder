@@ -64,7 +64,8 @@ scrapers:
     # app_id and app_key from ADZUNA_APP_ID / ADZUNA_API_KEY env vars
 
   foundit:
-    enabled: true
+    enabled: false
+    # blocked by Akamai CDN, requires residential proxy to bypass
     query: "devops"
     location: "bangalore"
 
