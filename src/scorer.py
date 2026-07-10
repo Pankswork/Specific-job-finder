@@ -1,4 +1,5 @@
 import json
+import time
 
 import requests
 
@@ -69,17 +70,13 @@ missing_skills = relevant profile skills NOT mentioned. Max 5.
 If score=0, matched_skills and missing_skills are empty []."""
 
 
-def score_job(job: JobPost, profile: dict) -> ScoredJob:
-    api_key = get_env_or_raise("DEEPSEEK_API_KEY")
-    prompt = _build_scoring_prompt(job, profile)
-
+def _call_llm(prompt: str, api_key: str) -> str | None:
     payload = {
         "model": LLM_MODEL,
         "messages": [{"role": "user", "content": prompt}],
         "temperature": 0.3,
-        "max_tokens": 400,
+        "max_tokens": 1024,
     }
-
     try:
         resp = requests.post(
             LLM_URL,
@@ -88,28 +85,52 @@ def score_job(job: JobPost, profile: dict) -> ScoredJob:
                 "Content-Type": "application/json",
             },
             json=payload,
-            timeout=30,
+            timeout=60,
         )
         resp.raise_for_status()
         data = resp.json()
         content = data["choices"][0]["message"]["content"].strip()
+        if not content:
+            return None
         content = content.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-        result = json.loads(content)
-        return ScoredJob(
-            job=job,
-            score=result.get("score", 50),
-            reasoning=result.get("reasoning", ""),
-            matched_skills=result.get("matched_skills", []),
-            missing_skills=result.get("missing_skills", []),
-        )
-    except Exception as e:
-        return ScoredJob(
-            job=job,
-            score=0,
-            reasoning=f"Scoring failed: {e}",
-            missing_skills=[],
-        )
+        return content
+    except Exception:
+        return None
+
+
+def score_job(job: JobPost, profile: dict) -> ScoredJob:
+    api_key = get_env_or_raise("DEEPSEEK_API_KEY")
+    prompt = _build_scoring_prompt(job, profile)
+
+    for attempt in range(2):
+        content = _call_llm(prompt, api_key)
+        if content:
+            try:
+                result = json.loads(content)
+                return ScoredJob(
+                    job=job,
+                    score=result.get("score", 50),
+                    reasoning=result.get("reasoning", ""),
+                    matched_skills=result.get("matched_skills", []),
+                    missing_skills=result.get("missing_skills", []),
+                )
+            except json.JSONDecodeError:
+                pass
+        if attempt == 0:
+            time.sleep(1.5)
+
+    return ScoredJob(
+        job=job,
+        score=0,
+        reasoning="Scoring failed after retry",
+        missing_skills=[],
+    )
 
 
 def score_jobs(jobs: list[JobPost], profile: dict) -> list[ScoredJob]:
-    return [score_job(job, profile) for job in jobs]
+    results: list[ScoredJob] = []
+    for i, job in enumerate(jobs):
+        if i > 0:
+            time.sleep(1)
+        results.append(score_job(job, profile))
+    return results
