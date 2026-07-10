@@ -95,37 +95,17 @@ def login(page, context) -> bool:
     except Exception:
         pass
 
-    if "checkpoint" in page.url.lower():
-        print("\nLinkedIn security challenge: open a headed browser to complete it once.")
-        print("Cookies will be saved for future runs.")
-        return _headed_login(email, password)
+    if "checkpoint" in page.url.lower() or ("login" in page.url.lower() and "feed" not in page.url):
+        print("\nLinkedIn login requires manual setup once. Run: python scripts/setup_linkedin.py")
+        print("This will open a browser for you to sign in and save cookies.\n")
+        return False
 
     if "feed" in page.url or "login" not in page.url.lower():
         save_cookies(context)
         return True
 
-    print("\nLinkedIn login failed — open a headed browser for manual login.")
-    return _headed_login(email, password)
-
-
-def _headed_login(email: str, password: str) -> bool:
-    from playwright.sync_api import sync_playwright
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context(viewport={"width": 1280, "height": 900})
-        page = context.new_page()
-        page.goto("https://www.linkedin.com/login", timeout=30000)
-        page.wait_for_timeout(2000)
-
-        print("\nA browser window has opened. Please log in to LinkedIn manually.")
-        print("After signing in, press Enter here to save cookies and continue...")
-        input()
-
-        page.wait_for_timeout(3000)
-        if "feed" in page.url or "login" not in page.url.lower():
-            save_cookies(context)
-            browser.close()
-            return True
-
-        browser.close()
+    print("\nLinkedIn login failed. Run: python scripts/setup_linkedin.py")
     return False
+
+
+
