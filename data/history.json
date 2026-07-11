@@ -2262,5 +2262,27 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-10T19:35:55.658681+00:00"
+  },
+  {
+    "fingerprint": "hirist.tech::Senior DevOps Engineer::Gurgaon/Gurugram",
+    "title": "Senior DevOps Engineer",
+    "company": "hirist.tech",
+    "url": "https://www.hirist.tech/j/dunnhumby-senior-devops-engineer-1653313",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-11T06:15:06.597573+00:00"
+  },
+  {
+    "fingerprint": "Siemens Industrial Turbomachinery Services::Lead DevOps Engineer::Bangalore",
+    "title": "Lead DevOps Engineer",
+    "company": "Siemens Industrial Turbomachinery Services",
+    "url": "https://www.hirist.tech/j/siemens-energy-lead-devops-engineer-dockerkubernetes-1653279",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-11T06:15:06.597588+00:00"
   }
 ]
