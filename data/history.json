@@ -2295,5 +2295,16 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-13T06:55:07.748190+00:00"
+  },
+  {
+    "fingerprint": "Happiest Minds Technologies::Senior DevOps Engineer::Others",
+    "title": "Senior DevOps Engineer",
+    "company": "Happiest Minds Technologies",
+    "url": "https://www.hirist.tech/j/technical-lead-azure-devops-1652953",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-13T14:38:08.683338+00:00"
   }
 ]
