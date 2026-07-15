@@ -2306,5 +2306,27 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-13T14:38:08.683338+00:00"
+  },
+  {
+    "fingerprint": "Accion Labs::Senior DevOps Engineer::Bangalore, Pune, Others",
+    "title": "Senior DevOps Engineer",
+    "company": "Accion Labs",
+    "url": "https://www.hirist.tech/j/accion-labs-senior-devops-engineer-awsazure-cloud-1651208",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-15T19:14:22.427432+00:00"
+  },
+  {
+    "fingerprint": "Itransition, Inc.::Middle/Senior DevOps Engineer::Anywhere in India/Multiple Locations",
+    "title": "Middle/Senior DevOps Engineer",
+    "company": "Itransition, Inc.",
+    "url": "https://www.hirist.tech/j/itransition-middlesenior-devops-engineer-1650345",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Requires 4+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-15T19:14:22.427444+00:00"
   }
 ]
