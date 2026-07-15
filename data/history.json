@@ -2328,5 +2328,56 @@
     "reasoning": "Requires 4+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-15T19:14:22.427444+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Medfar: Sp\u00e9cialiste DevOps::Remote",
+    "title": "Medfar: Sp\u00e9cialiste DevOps",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/medfar-specialiste-devops",
+    "source": "weworkremotely",
+    "score": 100,
+    "reasoning": "Matched 6 skills (+10 AI)",
+    "matched_skills": [
+      "RDS",
+      "ECR",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Helm"
+    ],
+    "timestamp": "2026-07-15T21:02:29.183385+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Five9: Senior DevOps Engineer::Remote",
+    "title": "Five9: Senior DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/five9-senior-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-15T21:02:29.183396+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Borrowell: Sr. DevOps Engineer::Remote",
+    "title": "Borrowell: Sr. DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/borrowell-sr-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-15T21:02:29.183399+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Common Securitization Solutions: DevOps Engineer::Remote",
+    "title": "Common Securitization Solutions: DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/common-securitization-solutions-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-15T21:02:29.183402+00:00"
   }
 ]
