@@ -2412,5 +2412,60 @@
     "reasoning": "Requires 8+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-16T13:55:49.182490+00:00"
+  },
+  {
+    "fingerprint": "Unknown::WME: Senior DevOps Engineer, Applications::Remote",
+    "title": "WME: Senior DevOps Engineer, Applications",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/wme-senior-devops-engineer-applications",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-16T15:40:33.992366+00:00"
+  },
+  {
+    "fingerprint": "Unknown::ICF: Senior DevOps Engineer::Remote",
+    "title": "ICF: Senior DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/icf-senior-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-16T15:40:33.992379+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Avalon Administrative Services: DevOps Engineer III::Remote",
+    "title": "Avalon Administrative Services: DevOps Engineer III",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/avalon-administrative-services-devops-engineer-iii",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 8+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-16T15:40:33.992382+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Carnival Corporation: Engineer Sr, DevOps::Remote",
+    "title": "Carnival Corporation: Engineer Sr, DevOps",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/carnival-corporation-engineer-sr-devops",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-16T15:40:33.992385+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Launch Legends: Senior DevOps Engineer (Web3)::Remote",
+    "title": "Launch Legends: Senior DevOps Engineer (Web3)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/launch-legends-senior-devops-engineer-web3",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-16T15:40:33.992387+00:00"
   }
 ]
