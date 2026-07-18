@@ -2511,5 +2511,27 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-17T19:13:04.489339+00:00"
+  },
+  {
+    "fingerprint": "Happiest Minds Technologies::Azure Architect::Hyderabad, Bangalore, Chennai",
+    "title": "Azure Architect",
+    "company": "Happiest Minds Technologies",
+    "url": "https://www.hirist.tech/j/happiest-minds-technologies-azure-architect-kubernetesdevops-1654675",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Requires 20+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-18T19:07:25.002011+00:00"
+  },
+  {
+    "fingerprint": "Visteon::Senior Analyst II::Bangalore",
+    "title": "Senior Analyst II",
+    "company": "Visteon",
+    "url": "https://www.hirist.tech/j/senior-analyst-ii-it-devops-1653963",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-18T19:07:25.002043+00:00"
   }
 ]
