@@ -2544,5 +2544,16 @@
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-20T10:53:58.042884+00:00"
+  },
+  {
+    "fingerprint": "EPAM Systems::Lead DevOps Engineer::Bangalore",
+    "title": "Lead DevOps Engineer",
+    "company": "EPAM Systems",
+    "url": "https://www.hirist.tech/j/epam-lead-devops-engineer-aws-cloud-infrastructure-1655927",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-21T06:29:50.011604+00:00"
   }
 ]
