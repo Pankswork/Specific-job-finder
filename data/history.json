@@ -2610,5 +2610,49 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-21T13:54:28.076003+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Toparo: DevOps Director::Remote",
+    "title": "Toparo: DevOps Director",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/toparo-devops-director",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-21T15:45:29.861229+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Modivcare: Senior Manager, DevOps::Remote",
+    "title": "Modivcare: Senior Manager, DevOps",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/modivcare-senior-manager-devops",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-21T15:45:29.861240+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Miratech: DevOps Engineer with Splunk::Remote",
+    "title": "Miratech: DevOps Engineer with Splunk",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/miratech-devops-engineer-with-splunk",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-21T15:45:29.861244+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Leidos: OCI DevOps Engineer::Remote",
+    "title": "Leidos: OCI DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/leidos-oci-devops-engineer",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 12+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-21T15:45:29.861246+00:00"
   }
 ]
