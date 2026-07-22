@@ -2654,5 +2654,38 @@
     "reasoning": "Requires 12+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-21T15:45:29.861246+00:00"
+  },
+  {
+    "fingerprint": "Think Future Technologies::Senior DevOps Engineer::Anywhere in India/Multiple Locations, Remote",
+    "title": "Senior DevOps Engineer",
+    "company": "Think Future Technologies",
+    "url": "https://www.hirist.tech/j/senior-devops-engineer-cloud-infrastructure-1656326",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T06:30:34.135517+00:00"
+  },
+  {
+    "fingerprint": "Dhwani Rural Information Systems::Associate DevOps Engineer::Gurgaon/Gurugram",
+    "title": "Associate DevOps Engineer",
+    "company": "Dhwani Rural Information Systems",
+    "url": "https://www.hirist.tech/j/dhwani-ris-associate-devops-engineer-cicd-pipeline-1656476",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Requires 3+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T06:30:34.135529+00:00"
+  },
+  {
+    "fingerprint": "Equiniti::Principal Azure DevOps Engineer::Bangalore",
+    "title": "Principal Azure DevOps Engineer",
+    "company": "Equiniti",
+    "url": "https://www.hirist.tech/j/equiniti-india-principal-azure-devops-engineer-1656351",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T06:30:34.135532+00:00"
   }
 ]
