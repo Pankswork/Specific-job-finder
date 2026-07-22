@@ -2709,5 +2709,16 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-22T10:26:41.187453+00:00"
+  },
+  {
+    "fingerprint": "Jupiter Money::DevOps Engineer::Bangalore",
+    "title": "DevOps Engineer",
+    "company": "Jupiter Money",
+    "url": "https://www.hirist.tech/j/jupiter-money-devops-engineer-aws-platform-1656762",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Requires 8+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T13:59:26.770394+00:00"
   }
 ]
