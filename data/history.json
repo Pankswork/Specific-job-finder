@@ -2687,5 +2687,27 @@
     "reasoning": "Senior-level title",
     "matched_skills": [],
     "timestamp": "2026-07-22T06:30:34.135532+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Dropbox: Staff Site Reliability Engineer, Production Engineering::Remote",
+    "title": "Dropbox: Staff Site Reliability Engineer, Production Engineering",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/dropbox-staff-site-reliability-engineer-production-engineering-1",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T10:26:41.187439+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Dropbox: Staff Site Reliability Engineer, Production Engineering::Remote",
+    "title": "Dropbox: Staff Site Reliability Engineer, Production Engineering",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/dropbox-staff-site-reliability-engineer-production-engineering",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T10:26:41.187453+00:00"
   }
 ]
