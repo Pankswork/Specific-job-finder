@@ -2720,5 +2720,89 @@
     "reasoning": "Requires 8+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-22T13:59:26.770394+00:00"
+  },
+  {
+    "fingerprint": "DevOps & Cloud Systems::BrightOrder: Full Stack Developer - DevOps & Cloud Systems::Remote",
+    "title": "BrightOrder: Full Stack Developer - DevOps & Cloud Systems",
+    "company": "DevOps & Cloud Systems",
+    "url": "https://weworkremotely.com/remote-jobs/brightorder-full-stack-developer-devops-cloud-systems",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T15:47:36.973507+00:00"
+  },
+  {
+    "fingerprint": "Unknown::ProctorU: DevOps Engineer::Remote",
+    "title": "ProctorU: DevOps Engineer",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/proctoru-devops-engineer",
+    "source": "weworkremotely",
+    "score": 100,
+    "reasoning": "Matched 12 skills (+10 AI)",
+    "matched_skills": [
+      "AWS",
+      "RDS",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Jenkins",
+      "Prometheus",
+      "Grafana",
+      "Python",
+      "Bash",
+      "Git"
+    ],
+    "timestamp": "2026-07-22T15:47:36.973520+00:00"
+  },
+  {
+    "fingerprint": "Unknown::SailPoint: Manager, DevOps::Remote",
+    "title": "SailPoint: Manager, DevOps",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/sailpoint-manager-devops",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Requires 5+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-22T15:47:36.973524+00:00"
+  },
+  {
+    "fingerprint": "Unknown::PPG: IT Team Manager (DevOps) (m/f/x)::Remote",
+    "title": "PPG: IT Team Manager (DevOps) (m/f/x)",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x",
+    "source": "weworkremotely",
+    "score": 100,
+    "reasoning": "Matched 9 skills (+10 AI)",
+    "matched_skills": [
+      "AWS",
+      "RDS",
+      "ECR",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Git"
+    ],
+    "timestamp": "2026-07-22T15:47:36.973527+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Coders Brain Technology: Devops eng_roji::Remote",
+    "title": "Coders Brain Technology: Devops eng_roji",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/coders-brain-technology-devops-eng_roji",
+    "source": "weworkremotely",
+    "score": 100,
+    "reasoning": "Matched 5 skills (+10 AI)",
+    "matched_skills": [
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "Python"
+    ],
+    "timestamp": "2026-07-22T15:47:36.973529+00:00"
   }
 ]
