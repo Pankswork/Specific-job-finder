@@ -2815,5 +2815,38 @@
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-23T06:31:43.630469+00:00"
+  },
+  {
+    "fingerprint": "Unknown::Coinbase: Senior Site Reliability Engineer, Workforce Identity::Remote",
+    "title": "Coinbase: Senior Site Reliability Engineer, Workforce Identity",
+    "company": "Unknown",
+    "url": "https://weworkremotely.com/remote-jobs/coinbase-senior-site-reliability-engineer-workforce-identity",
+    "source": "weworkremotely",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-23T10:24:52.000311+00:00"
+  },
+  {
+    "fingerprint": "Happiest Minds Technologies::DevOps Module Lead::Others",
+    "title": "DevOps Module Lead",
+    "company": "Happiest Minds Technologies",
+    "url": "https://www.hirist.tech/j/happiest-minds-technologies-devops-module-lead-build-release-management-1656991",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-23T10:24:52.000323+00:00"
+  },
+  {
+    "fingerprint": "Intellias::Principal/Senior DevOps/SRE Engineer::Anywhere in India/Multiple Locations",
+    "title": "Principal/Senior DevOps/SRE Engineer",
+    "company": "Intellias",
+    "url": "https://www.hirist.tech/j/intellias-principalsenior-devopssre-engineer-1656990",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Requires 15+ years experience",
+    "matched_skills": [],
+    "timestamp": "2026-07-23T10:24:52.000327+00:00"
   }
 ]
