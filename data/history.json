@@ -2892,5 +2892,27 @@
     "reasoning": "Requires 10+ years experience",
     "matched_skills": [],
     "timestamp": "2026-07-26T19:13:28.675617+00:00"
+  },
+  {
+    "fingerprint": "Happiest Minds Technologies::DevOps Module Lead::Bangalore",
+    "title": "DevOps Module Lead",
+    "company": "Happiest Minds Technologies",
+    "url": "https://www.hirist.tech/j/happiest-minds-technologies-devops-module-lead-build-release-management-1656991",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-27T07:34:30.399971+00:00"
+  },
+  {
+    "fingerprint": "Happiest Minds Technologies::Senior DevOps Technical Lead::Others",
+    "title": "Senior DevOps Technical Lead",
+    "company": "Happiest Minds Technologies",
+    "url": "https://www.hirist.tech/j/senior-devops-technical-lead-cicd-pipeline-1657867",
+    "source": "hirist",
+    "score": 0,
+    "reasoning": "Senior-level title",
+    "matched_skills": [],
+    "timestamp": "2026-07-27T07:34:30.399987+00:00"
   }
 ]
